@@ -1,0 +1,39 @@
+digraph "LinkedQueue::Front"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node32 [label="LinkedQueue::Front",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Returns the First data from the Queue, if Queue is empty throw EmptyQueue Exception."];
+  Node32 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="BaseApplication::GetTarget\lFolderPtrInPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8bcc37c5ac700ff9dca8b0acf8589a5d",tooltip="using Path processor find TargetFolder @detail trace the folder path"];
+  Node33 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="BaseApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8f2ce8add401a3b537f041df9f7ef978",tooltip="Program driver."];
+  Node33 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="BaseApplication::CopyItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#af39725a09486b8746e54e59781deee99",tooltip="Copy Item. @detail operation copy [target] [value] copy [target] store on Heap copy [target] [value] ..."];
+  Node35 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="BaseApplication::CutItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a0457f13f4b461515b9930424b5328cd0",tooltip="cut/move Item. @detail operation cut [target] [value] cut [target] store on Heap and delete it cut [t..."];
+  Node36 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="BaseApplication::Paste",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a567c67b347b15a02f194fa0d39d744f1",tooltip="paste Item. @detail operation paste [value] paste [target] paste heap data to Value default value is ..."];
+  Node37 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="BaseApplication::GetTarget\lFilePtrInPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#abe08155a16acff227b954da9f0eed6e4",tooltip="using Path processor find TargetFile @detail trace the file path"];
+  Node38 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="BaseApplication::RunFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#adecbc4b863bc92fc6dbc79efcf7ae7a6",tooltip="Run File. @detail operation run [Target]."];
+  Node39 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="BaseApplication::AddRecentItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a3e8c878235dea443d9f7a889f02a72d2",tooltip="Add Item record in Recently Folder. @detail If Item path is overlap, delete the existing Item record."];
+  Node40 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="BaseApplication::Display\lRecentFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#aa8b6da17221d1e02badc423e7f7c6ee5",tooltip="Display the Recent Item on Screen."];
+  Node41 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="LinkedQueue\< ItemType\l * \>::LinkedQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_queue.html#a6a2ab8e3a43fe02cffd3d2935dded925",tooltip=" "];
+  Node32 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="LinkedQueue\< ItemType\l * \>::operator=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_queue.html#a5ac52e1f1238555f4e698dbdc602e094",tooltip="Doing Deep copy by copy assignment operator."];
+}

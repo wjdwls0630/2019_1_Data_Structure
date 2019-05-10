@@ -1,0 +1,18 @@
+digraph "SLinkedList::Sort"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node113 [label="SLinkedList::Sort",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Sort item from this list."];
+  Node113 -> Node114 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node114 [label="FolderType::SortSubItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a011460ae72d46ccbc2cf244351051c30",tooltip="Sort SubItem list."];
+  Node114 -> Node115 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node115 [label="BaseApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8f2ce8add401a3b537f041df9f7ef978",tooltip="Program driver."];
+  Node114 -> Node116 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node116 [label="BaseApplication::SearchItems\lByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a151a0f325cc865e21364723891f82a7a",tooltip="Retrieve and Display all Items that contain the keword in all child path."];
+  Node116 -> Node115 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node114 -> Node117 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node117 [label="BaseApplication::SortAll\lItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a724f6683cecf22b645fb68c98b55e1f8",tooltip="sort items in curret folder by value criteria."];
+  Node117 -> Node115 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

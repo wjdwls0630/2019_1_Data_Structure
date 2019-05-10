@@ -1,0 +1,34 @@
+digraph "BaseApplication::DeleteItem"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node75 [label="BaseApplication::DeleteItem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node75 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node76 [label="BaseApplication::CheckValue\lItemType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#ad64a38a56c42072975d8b87cfec294ab",tooltip="Check ItemType and Value is right."];
+  Node75 -> Node77 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 [label="FileType::SetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_type.html#a7c9ca3f10dfef3030006550fd0099ce7",tooltip="Set File Name. @detail also Set Extensions."];
+  Node77 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node78 [label="ItemType::SetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#aea24328c7ff5e5b1c04599bba74d2f80",tooltip="Set Item Name."];
+  Node77 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node79 [label="FileType::SetExtensions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_type.html#a0ed4831bb1173cc6a4a660afa58a5401",tooltip="Set Extensions. @detail Do not use this except reading data!"];
+  Node75 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node80 [label="ItemType::SetPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a6388a6b8b947b1a75d2a7342ae0b95c3",tooltip="Set Item path."];
+  Node75 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node81 [label="ItemType::GetPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a12779ddd429e3fac928c8ade27b12107",tooltip="Get Item path."];
+  Node75 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 [label="FolderType::DeleteFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a5faf41f3cdae29901a8eb43726d209af",tooltip="Delete File in Current Folder."];
+  Node82 -> Node83 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="ItemType::GetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a6a8650790e4d0c8a212574cf77e23cb9",tooltip="Get Item name."];
+  Node82 -> Node84 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="SLinkedList::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_linked_list.html#aff7b5da944f6452eed8bb29b392e621b",tooltip="get the data which has same in the list.(Sequential Search)"];
+  Node82 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="SLinkedList::Delete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_linked_list.html#af9de16c8c723bff33e3da138f1f34ce5",tooltip="Delete item from this list."];
+  Node75 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node75 -> Node86 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="FolderType::DeleteFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#af6b92e8b217e8942d0553e1ee07e8670",tooltip="Delete Folder in Current Folder."];
+  Node86 -> Node83 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 -> Node84 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

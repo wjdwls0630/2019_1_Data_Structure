@@ -1,0 +1,46 @@
+digraph "BaseApplication::NewItem"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node204 [label="BaseApplication::NewItem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create New Item in Current Folder. @detail operation mkdir [Value] (folder) or touch [Value] (file) m..."];
+  Node204 -> Node205 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node205 [label="BaseApplication::CheckValue\lItemType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#ad64a38a56c42072975d8b87cfec294ab",tooltip="Check ItemType and Value is right."];
+  Node204 -> Node206 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node206 [label="FileType::SetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_type.html#a7c9ca3f10dfef3030006550fd0099ce7",tooltip="Set File Name. @detail also Set Extensions."];
+  Node206 -> Node207 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node207 [label="ItemType::SetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#aea24328c7ff5e5b1c04599bba74d2f80",tooltip="Set Item Name."];
+  Node206 -> Node208 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node208 [label="FileType::SetExtensions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_type.html#a0ed4831bb1173cc6a4a660afa58a5401",tooltip="Set Extensions. @detail Do not use this except reading data!"];
+  Node204 -> Node209 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node209 [label="ItemType::SetPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a6388a6b8b947b1a75d2a7342ae0b95c3",tooltip="Set Item path."];
+  Node204 -> Node210 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node210 [label="ItemType::GetPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a12779ddd429e3fac928c8ade27b12107",tooltip="Get Item path."];
+  Node204 -> Node208 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node204 -> Node211 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node211 [label="FolderType::NewFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#ae03b14686e13839c1fc4a1bc56795402",tooltip="Create New File in Current Folder. @detail If File name is overlap, add the number that how much is o..."];
+  Node211 -> Node212 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node212 [label="SLinkedList::Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_linked_list.html#aff7b5da944f6452eed8bb29b392e621b",tooltip="get the data which has same in the list.(Sequential Search)"];
+  Node211 -> Node213 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node213 [label="ItemType::GetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a6a8650790e4d0c8a212574cf77e23cb9",tooltip="Get Item name."];
+  Node211 -> Node206 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node211 -> Node214 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node214 [label="FileType::GetExtensions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_type.html#ade120b9596c69fbddadc0a430a4fdba8",tooltip="Get Extensions."];
+  Node211 -> Node209 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node211 -> Node210 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node211 -> Node215 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node215 [label="SLinkedList::Add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_linked_list.html#a1e79afe7947f758d91163eedb6f66a23",tooltip="Add item into appropriate spot of this list."];
+  Node204 -> Node207 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node204 -> Node216 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node216 [label="FolderType::SetParentPtr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#ae366f9b8ebb19c53709d4182c962a23b",tooltip="Set ParentFolder."];
+  Node204 -> Node217 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node217 [label="FolderType::NewFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a8eb3417a222cca4a306da0755644b98a",tooltip="Create New Folder in Current Folder. @detail If Folder name is overlap, add the number that how much ..."];
+  Node217 -> Node212 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node217 -> Node207 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node217 -> Node213 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node217 -> Node209 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node217 -> Node210 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node217 -> Node215 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node217 -> Node216 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

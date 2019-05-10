@@ -1,0 +1,25 @@
+digraph "FolderType::RetrieveFilePtrByName"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node156 [label="FolderType::RetrieveFile\lPtrByName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Retrieve the pointer of the one File you search in Current Folder."];
+  Node156 -> Node157 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node157 [label="BaseApplication::GetTarget\lFilePtrInPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#abe08155a16acff227b954da9f0eed6e4",tooltip="using Path processor find TargetFile @detail trace the file path"];
+  Node157 -> Node158 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node158 [label="BaseApplication::RunFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#adecbc4b863bc92fc6dbc79efcf7ae7a6",tooltip="Run File. @detail operation run [Target]."];
+  Node158 -> Node159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node159 [label="BaseApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8f2ce8add401a3b537f041df9f7ef978",tooltip="Program driver."];
+  Node157 -> Node160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node160 [label="BaseApplication::CopyItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#af39725a09486b8746e54e59781deee99",tooltip="Copy Item. @detail operation copy [target] [value] copy [target] store on Heap copy [target] [value] ..."];
+  Node160 -> Node159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node157 -> Node161 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node161 [label="BaseApplication::CutItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a0457f13f4b461515b9930424b5328cd0",tooltip="cut/move Item. @detail operation cut [target] [value] cut [target] store on Heap and delete it cut [t..."];
+  Node161 -> Node159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node156 -> Node162 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node162 [label="BaseApplication::UpdateItemName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a6146aad1d248e5cd6cf2623591be7ecc",tooltip="Update Item Name you search in Current Folder. @detail operation update [target] [value] it can be on..."];
+  Node162 -> Node159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node156 -> Node160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node156 -> Node161 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

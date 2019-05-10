@@ -1,0 +1,24 @@
+digraph "BaseApplication::DisplayRecentFolder"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node145 [label="BaseApplication::Display\lRecentFolder",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Display the Recent Item on Screen."];
+  Node145 -> Node146 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node146 [label="LinkedQueue::GetLength",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_queue.html#aa307516d3ba0133d9eaf37ed04e3c3bd",tooltip="Get a number of Items in current Queue."];
+  Node145 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node147 [label="LinkedQueue::Front",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_queue.html#aca067ad17e6e7fe1f5d2e16d8b46fac8",tooltip="Returns the First data from the Queue, if Queue is empty throw EmptyQueue Exception."];
+  Node145 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node148 [label="ItemType::GetPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a12779ddd429e3fac928c8ade27b12107",tooltip="Get Item path."];
+  Node145 -> Node149 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node149 [label="ItemType::MakeMonthToWord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a78b1b6a0b65a5c9e5e744ac70c0d57a1",tooltip="generate Month \"mm\" to word"];
+  Node145 -> Node150 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node150 [label="ItemType::GetAccessTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a576cb5ec852e3b8a8302004dd3ce62b0",tooltip="Get Access Time."];
+  Node145 -> Node151 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node151 [label="ItemType::MakeHourMinute\lToWord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a8bb2fb38a8263d044aeae28c411492ce",tooltip="generate hour,minute \"hhmm\" to Am,Pm(return)"];
+  Node145 -> Node152 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node152 [label="LinkedQueue::EnQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_queue.html#a9fb4766a9a092d2afebdcefd4faf20b3",tooltip="add a new data to the last of Queue."];
+  Node145 -> Node153 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node153 [label="LinkedQueue::DeQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_queue.html#aaabdbed30843433ae4c97343060f9bc9",tooltip="Remove the First data from the Queue, if Queue is empty throw EmptyQueue Exception."];
+}

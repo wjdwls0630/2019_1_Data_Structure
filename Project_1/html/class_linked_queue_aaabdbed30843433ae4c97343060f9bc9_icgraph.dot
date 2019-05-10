@@ -1,0 +1,37 @@
+digraph "LinkedQueue::DeQueue"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node7 [label="LinkedQueue::DeQueue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Remove the First data from the Queue, if Queue is empty throw EmptyQueue Exception."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="BaseApplication::GetTarget\lFolderPtrInPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8bcc37c5ac700ff9dca8b0acf8589a5d",tooltip="using Path processor find TargetFolder @detail trace the folder path"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="BaseApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8f2ce8add401a3b537f041df9f7ef978",tooltip="Program driver."];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="BaseApplication::CopyItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#af39725a09486b8746e54e59781deee99",tooltip="Copy Item. @detail operation copy [target] [value] copy [target] store on Heap copy [target] [value] ..."];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="BaseApplication::CutItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a0457f13f4b461515b9930424b5328cd0",tooltip="cut/move Item. @detail operation cut [target] [value] cut [target] store on Heap and delete it cut [t..."];
+  Node11 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="BaseApplication::Paste",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a567c67b347b15a02f194fa0d39d744f1",tooltip="paste Item. @detail operation paste [value] paste [target] paste heap data to Value default value is ..."];
+  Node12 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="BaseApplication::GetTarget\lFilePtrInPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#abe08155a16acff227b954da9f0eed6e4",tooltip="using Path processor find TargetFile @detail trace the file path"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="BaseApplication::RunFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#adecbc4b863bc92fc6dbc79efcf7ae7a6",tooltip="Run File. @detail operation run [Target]."];
+  Node14 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="BaseApplication::AddRecentItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a3e8c878235dea443d9f7a889f02a72d2",tooltip="Add Item record in Recently Folder. @detail If Item path is overlap, delete the existing Item record."];
+  Node15 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="BaseApplication::Display\lRecentFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#aa8b6da17221d1e02badc423e7f7c6ee5",tooltip="Display the Recent Item on Screen."];
+  Node16 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="LinkedQueue\< ItemType\l * \>::MakeEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_queue.html#abf762fefab4f156c4c7178b85aa82131",tooltip="Make Queue empty."];
+}

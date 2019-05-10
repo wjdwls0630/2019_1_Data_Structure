@@ -1,0 +1,12 @@
+digraph "BaseApplication::BaseApplication"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="BaseApplication::BaseApplication",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="ItemType::SetPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a6388a6b8b947b1a75d2a7342ae0b95c3",tooltip="Set Item path."];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="FolderType::SetParentPtr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#ae366f9b8ebb19c53709d4182c962a23b",tooltip="Set ParentFolder."];
+}

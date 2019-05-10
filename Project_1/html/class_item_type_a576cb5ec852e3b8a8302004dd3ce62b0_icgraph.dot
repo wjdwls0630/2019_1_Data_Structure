@@ -1,0 +1,28 @@
+digraph "ItemType::GetAccessTime"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node65 [label="ItemType::GetAccessTime",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get Access Time."];
+  Node65 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node66 [label="BaseApplication::Display\lRecentFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#aa8b6da17221d1e02badc423e7f7c6ee5",tooltip="Display the Recent Item on Screen."];
+  Node66 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 [label="BaseApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8f2ce8add401a3b537f041df9f7ef978",tooltip="Program driver."];
+  Node65 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 [label="FileType::operator\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_type.html#a54ba6a6edbb24da53b9989f1099ce0af",tooltip="Comparing File name is smaller. (by key)"];
+  Node65 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 [label="FileType::operator\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_type.html#a47def0624e9c000e3acae308d46e67a1",tooltip="Comparing File name is bigger. (by key)"];
+  Node65 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node70 [label="FolderType::DisplayAllSub\lItemsDetail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a6c99cb4ce18913d353de018761054ada",tooltip="Display the Current Folder's SubFolder List on Screen. @detail if there is no sub folders return;."];
+  Node70 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 [label="BaseApplication::SearchItems\lByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a151a0f325cc865e21364723891f82a7a",tooltip="Retrieve and Display all Items that contain the keword in all child path."];
+  Node71 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node70 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node72 [label="BaseApplication::Display\lAllItemsDetail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a55b0eb56ea6be6dcb4e89737e584c95c",tooltip="Display the Current Folder's SubItem List of info on Screen. @detail operation ls a."];
+  Node72 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 -> Node73 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node73 [label="FolderType::operator\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#ac5644b2d011697f2100f8c6b21f43c9d",tooltip="Comparing Folder name is smaller. (by key)"];
+  Node65 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node74 [label="FolderType::operator\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#aa81e2130b70c6bbcff9fa8cfad057dc1",tooltip="Comparing Folder name is bigger. (by key)"];
+}

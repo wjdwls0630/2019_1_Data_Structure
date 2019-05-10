@@ -1,0 +1,48 @@
+digraph "SLinkedList::Get"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node27 [label="SLinkedList::Get",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="get the data which has same in the list.(Sequential Search)"];
+  Node27 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="FolderType::NewFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a8eb3417a222cca4a306da0755644b98a",tooltip="Create New Folder in Current Folder. @detail If Folder name is overlap, add the number that how much ..."];
+  Node28 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="BaseApplication::NewItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#ab4822da88f1aae5e7d57aaf6ad962a78",tooltip="Create New Item in Current Folder. @detail operation mkdir [Value] (folder) or touch [Value] (file) m..."];
+  Node29 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="BaseApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8f2ce8add401a3b537f041df9f7ef978",tooltip="Program driver."];
+  Node28 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="BaseApplication::Paste",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a567c67b347b15a02f194fa0d39d744f1",tooltip="paste Item. @detail operation paste [value] paste [target] paste heap data to Value default value is ..."];
+  Node31 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="FolderType::RetrieveItems\lByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#aa510fd12acb7cc3408e24eb28657c810",tooltip=" "];
+  Node32 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="BaseApplication::SearchItems\lByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a151a0f325cc865e21364723891f82a7a",tooltip="Retrieve and Display all Items that contain the keword in all child path."];
+  Node33 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="FolderType::NewFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#ae03b14686e13839c1fc4a1bc56795402",tooltip="Create New File in Current Folder. @detail If File name is overlap, add the number that how much is o..."];
+  Node34 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="FolderType::DeleteFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#af6b92e8b217e8942d0553e1ee07e8670",tooltip="Delete Folder in Current Folder."];
+  Node35 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="BaseApplication::DeleteItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#aa796bf53038391061da76617f2eb55aa",tooltip=" "];
+  Node36 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="BaseApplication::CutItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a0457f13f4b461515b9930424b5328cd0",tooltip="cut/move Item. @detail operation cut [target] [value] cut [target] store on Heap and delete it cut [t..."];
+  Node37 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="FolderType::DeleteFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a5faf41f3cdae29901a8eb43726d209af",tooltip="Delete File in Current Folder."];
+  Node38 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="FolderType::RetrieveFolder\lByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a96ed5c758b3cd662fd431b58a8870279",tooltip="Retrieve one Folder you search in Current Folder."];
+  Node39 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="BaseApplication::Display\lItemInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8a64db7c6a721e65f4736b0fb3f0414e",tooltip="Display the Current Item Information which is in currentfolder on Screen. @detail operation info [Val..."];
+  Node40 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="FolderType::RetrieveFile\lByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a7afb0c8f8068f546d3de46816b60c64e",tooltip="Retrieve one File you search in Current Folder."];
+  Node41 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

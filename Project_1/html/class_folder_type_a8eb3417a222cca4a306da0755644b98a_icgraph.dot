@@ -1,0 +1,21 @@
+digraph "FolderType::NewFolder"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node102 [label="FolderType::NewFolder",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create New Folder in Current Folder. @detail If Folder name is overlap, add the number that how much ..."];
+  Node102 -> Node103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node103 [label="BaseApplication::NewItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#ab4822da88f1aae5e7d57aaf6ad962a78",tooltip="Create New Item in Current Folder. @detail operation mkdir [Value] (folder) or touch [Value] (file) m..."];
+  Node103 -> Node104 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node104 [label="BaseApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8f2ce8add401a3b537f041df9f7ef978",tooltip="Program driver."];
+  Node102 -> Node105 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node105 [label="BaseApplication::Paste",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a567c67b347b15a02f194fa0d39d744f1",tooltip="paste Item. @detail operation paste [value] paste [target] paste heap data to Value default value is ..."];
+  Node105 -> Node104 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node102 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node106 [label="FolderType::RetrieveItems\lByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#aa510fd12acb7cc3408e24eb28657c810",tooltip=" "];
+  Node106 -> Node107 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node107 [label="BaseApplication::SearchItems\lByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a151a0f325cc865e21364723891f82a7a",tooltip="Retrieve and Display all Items that contain the keword in all child path."];
+  Node107 -> Node104 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node106 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

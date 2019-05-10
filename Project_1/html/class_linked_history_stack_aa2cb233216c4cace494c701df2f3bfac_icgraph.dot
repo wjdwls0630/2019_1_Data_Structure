@@ -1,0 +1,14 @@
+digraph "LinkedHistoryStack::IsEmpty"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node16 [label="LinkedHistoryStack\l::IsEmpty",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Check capacity of Linked History Stack is empty."];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="BaseApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8f2ce8add401a3b537f041df9f7ef978",tooltip="Program driver."];
+  Node16 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="LinkedHistoryStack\l\< FolderType * \>::~LinkedHistory\lStack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_history_stack.html#adb9bdc3357b60bc963301704561c0e85",tooltip=" "];
+  Node16 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="LinkedHistoryStack\l\< FolderType * \>::MakeEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_history_stack.html#a8f7d33e10a2d71cc971e5a943571028d",tooltip="Make Linked History Stack empty."];
+}

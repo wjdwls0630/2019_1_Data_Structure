@@ -1,0 +1,10 @@
+digraph "FolderType::SetDirection"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node199 [label="FolderType::SetDirection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set Direction (sort)."];
+  Node199 -> Node200 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node200 [label="SLinkedList::SetDirection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_linked_list.html#aaced4e017a2fa22adeaf4dafd6e12f84",tooltip="Set Direction."];
+}

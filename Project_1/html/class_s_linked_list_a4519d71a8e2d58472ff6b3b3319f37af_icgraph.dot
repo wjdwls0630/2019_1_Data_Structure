@@ -1,0 +1,43 @@
+digraph "SLinkedList::GetPtr"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node70 [label="SLinkedList::GetPtr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="get the data which has same id in the list.(Sequential Search)"];
+  Node70 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 [label="FolderType::RetrieveFolder\lPtrByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a90b2b78dc63a1ca0623fa91fa512429d",tooltip="Retrieve the pointer of the one Folder you search in Current Folder."];
+  Node71 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node72 [label="BaseApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8f2ce8add401a3b537f041df9f7ef978",tooltip="Program driver."];
+  Node71 -> Node73 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node73 [label="BaseApplication::GetTarget\lFolderPtrInPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8bcc37c5ac700ff9dca8b0acf8589a5d",tooltip="using Path processor find TargetFolder @detail trace the folder path"];
+  Node73 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node73 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node74 [label="BaseApplication::CopyItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#af39725a09486b8746e54e59781deee99",tooltip="Copy Item. @detail operation copy [target] [value] copy [target] store on Heap copy [target] [value] ..."];
+  Node74 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node73 -> Node75 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node75 [label="BaseApplication::CutItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a0457f13f4b461515b9930424b5328cd0",tooltip="cut/move Item. @detail operation cut [target] [value] cut [target] store on Heap and delete it cut [t..."];
+  Node75 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node73 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node76 [label="BaseApplication::Paste",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a567c67b347b15a02f194fa0d39d744f1",tooltip="paste Item. @detail operation paste [value] paste [target] paste heap data to Value default value is ..."];
+  Node76 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 [label="BaseApplication::GetTarget\lFilePtrInPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#abe08155a16acff227b954da9f0eed6e4",tooltip="using Path processor find TargetFile @detail trace the file path"];
+  Node77 -> Node78 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node78 [label="BaseApplication::RunFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#adecbc4b863bc92fc6dbc79efcf7ae7a6",tooltip="Run File. @detail operation run [Target]."];
+  Node78 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 -> Node75 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node79 [label="BaseApplication::UpdateItemName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a6146aad1d248e5cd6cf2623591be7ecc",tooltip="Update Item Name you search in Current Folder. @detail operation update [target] [value] it can be on..."];
+  Node79 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 -> Node75 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node70 -> Node80 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node80 [label="FolderType::RetrieveFile\lPtrByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a8b5028594bd1152e468d1d824472c155",tooltip="Retrieve the pointer of the one File you search in Current Folder."];
+  Node80 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node80 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node80 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node80 -> Node75 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

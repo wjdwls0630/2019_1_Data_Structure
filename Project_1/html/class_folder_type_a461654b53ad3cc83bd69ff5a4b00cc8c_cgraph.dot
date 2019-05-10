@@ -1,0 +1,14 @@
+digraph "FolderType::operator+="
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node111 [label="FolderType::operator+=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Doing combine two different folder."];
+  Node111 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node112 [label="SLinkedList::ResetList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_linked_list.html#a80c0d48d73ed1ab28a0a2038d4b814dd",tooltip="Initialize current pointer for an iteration through the list. (make nullptr)"];
+  Node111 -> Node113 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node113 [label="SLinkedList::GetNextItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_linked_list.html#a28631c0c61224b82cf84a5b71994776d",tooltip="move list iterator to the next item in list and get that item."];
+  Node111 -> Node114 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node114 [label="SLinkedList::Add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_linked_list.html#a1e79afe7947f758d91163eedb6f66a23",tooltip="Add item into appropriate spot of this list."];
+}

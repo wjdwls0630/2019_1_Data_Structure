@@ -1,0 +1,12 @@
+digraph "ItemType::operator="
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node174 [label="ItemType::operator=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Doing Deep copy by copy assignment operator."];
+  Node174 -> Node175 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node175 [label="FileType::operator=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_type.html#abf08135ac880c99b13d41cf771dfde51",tooltip="Doing Deep copy by copy assignment operator."];
+  Node174 -> Node176 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node176 [label="FolderType::operator=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a1ebd673dd7da8c7539a7bb890673e651",tooltip="Doing Deep copy by copy assignment operator."];
+}

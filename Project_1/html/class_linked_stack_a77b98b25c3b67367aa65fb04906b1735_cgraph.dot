@@ -1,0 +1,15 @@
+digraph "LinkedStack::~LinkedStack"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9 [label="LinkedStack::~LinkedStack",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="LinkedStack::IsEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_stack.html#aea6007420e54b7cde12f5466604ab37c",tooltip="Check capacity of Linked Stack is empty."];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="LinkedStack::MakeEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_stack.html#a4bc0d2e654b9f9c592f34313bf844e84",tooltip="Make Linked Stack empty."];
+  Node11 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="LinkedStack::Pop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_stack.html#a785e0cb57f6a0f91ca7dbb06823ece5b",tooltip="Remove the top data from the Linked Stack, if Linked Stack is empty throw EmptyLinked Stack Exception..."];
+}

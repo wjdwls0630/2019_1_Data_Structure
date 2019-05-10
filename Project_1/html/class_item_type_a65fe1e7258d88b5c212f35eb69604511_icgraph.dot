@@ -1,0 +1,21 @@
+digraph "ItemType::DisplayPathOnScreen"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node52 [label="ItemType::DisplayPathOnScreen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Display Item Path on screen."];
+  Node52 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="BaseApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8f2ce8add401a3b537f041df9f7ef978",tooltip="Program driver."];
+  Node52 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="FileType::DisplayInfoOnScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_type.html#a0cb789c731bc317db67ff5e8b604a61b",tooltip="Display file Info on screen."];
+  Node54 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="BaseApplication::Display\lItemInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8a64db7c6a721e65f4736b0fb3f0414e",tooltip="Display the Current Item Information which is in currentfolder on Screen. @detail operation info [Val..."];
+  Node55 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="FolderType::DisplayInfoOn\lScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a85827a860398d67cfd077cf6c82273c1",tooltip="Display Folder Info on screen."];
+  Node56 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="BaseApplication::Display\lCurFolderInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#ab148ad93c31b69939c8b8f628fe65eb2",tooltip="Display the Current Folder Information on Screen."];
+  Node57 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

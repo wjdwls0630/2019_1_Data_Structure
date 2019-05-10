@@ -1,0 +1,25 @@
+digraph "ItemType::WhatIs"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node253 [label="ItemType::WhatIs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get ItemType kind."];
+  Node253 -> Node254 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node254 [label="BaseApplication::Paste",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a567c67b347b15a02f194fa0d39d744f1",tooltip="paste Item. @detail operation paste [value] paste [target] paste heap data to Value default value is ..."];
+  Node254 -> Node255 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node255 [label="BaseApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8f2ce8add401a3b537f041df9f7ef978",tooltip="Program driver."];
+  Node253 -> Node256 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node256 [label="ItemType::DisplayKindOnScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#ade53ef633d2eb9a0187e8ffb9a2bb45a",tooltip="Display Item Kind on screen."];
+  Node256 -> Node257 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node257 [label="FileType::DisplayInfoOnScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_type.html#a0cb789c731bc317db67ff5e8b604a61b",tooltip="Display file Info on screen."];
+  Node257 -> Node258 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node258 [label="BaseApplication::Display\lItemInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8a64db7c6a721e65f4736b0fb3f0414e",tooltip="Display the Current Item Information which is in currentfolder on Screen. @detail operation info [Val..."];
+  Node258 -> Node255 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node256 -> Node259 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node259 [label="FolderType::DisplayInfoOn\lScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a85827a860398d67cfd077cf6c82273c1",tooltip="Display Folder Info on screen."];
+  Node259 -> Node258 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node259 -> Node260 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node260 [label="BaseApplication::Display\lCurFolderInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#ab148ad93c31b69939c8b8f628fe65eb2",tooltip="Display the Current Folder Information on Screen."];
+  Node260 -> Node255 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

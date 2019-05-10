@@ -1,0 +1,12 @@
+digraph "FolderType::DisplayAllSubItems"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node25 [label="FolderType::DisplayAllSub\lItems",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Display the Current Folder's SubFolder List on Screen. @detail if there is no sub folders return;."];
+  Node25 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="BaseApplication::Display\lAllItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#ac28d5ec00b676d6b79998ac6c0d3ce45",tooltip="Display the Current Folder's SubItem List on Screen. @detail operation ls."];
+  Node26 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="BaseApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8f2ce8add401a3b537f041df9f7ef978",tooltip="Program driver."];
+}

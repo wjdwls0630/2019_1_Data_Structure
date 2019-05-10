@@ -1,0 +1,28 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="exception",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node18 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="EmptyFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_empty_folder.html",tooltip=" "];
+  Node18 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="EmptyQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_empty_queue.html",tooltip=" "];
+  Node18 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="EmptyStack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_empty_stack.html",tooltip=" "];
+  Node18 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="FullQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_full_queue.html",tooltip=" "];
+  Node18 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="FullStack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_full_stack.html",tooltip=" "];
+  Node18 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="InvalidOperation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_invalid_operation.html",tooltip=" "];
+  Node18 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="ItemNotFound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_not_found.html",tooltip=" "];
+  Node18 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="NameError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_name_error.html",tooltip=" "];
+  Node18 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="NoHistory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_no_history.html",tooltip=" "];
+  Node18 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="NoParent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_no_parent.html",tooltip=" "];
+}

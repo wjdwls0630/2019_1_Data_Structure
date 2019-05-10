@@ -1,0 +1,16 @@
+digraph "FileType::Run"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node55 [label="FileType::Run",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Run the file by proper file application."];
+  Node55 -> Node56 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="FileType::GetExtensionsCode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_type.html#aa06b0d9cb76b71170f39a8a1993dbce9",tooltip="Get Extensions code."];
+  Node55 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="ItemType::GetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a6a8650790e4d0c8a212574cf77e23cb9",tooltip="Get Item name."];
+  Node55 -> Node58 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="TextApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_text_application.html#ae6ec0ddfac6060639afa12feb78d73b7",tooltip="TextApplication driver. @detail it process filestream."];
+  Node55 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="JPGApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_j_p_g_application.html#a6c996573198fd5935a04276c2308e9c5",tooltip="JPGApplication driver. @detail it process filestream."];
+}

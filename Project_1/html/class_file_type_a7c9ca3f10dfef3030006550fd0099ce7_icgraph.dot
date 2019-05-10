@@ -1,0 +1,46 @@
+digraph "FileType::SetName"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node82 [label="FileType::SetName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set File Name. @detail also Set Extensions."];
+  Node82 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="BaseApplication::GetTarget\lFilePtrInPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#abe08155a16acff227b954da9f0eed6e4",tooltip="using Path processor find TargetFile @detail trace the file path"];
+  Node83 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="BaseApplication::RunFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#adecbc4b863bc92fc6dbc79efcf7ae7a6",tooltip="Run File. @detail operation run [Target]."];
+  Node84 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="BaseApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8f2ce8add401a3b537f041df9f7ef978",tooltip="Program driver."];
+  Node83 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="BaseApplication::CopyItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#af39725a09486b8746e54e59781deee99",tooltip="Copy Item. @detail operation copy [target] [value] copy [target] store on Heap copy [target] [value] ..."];
+  Node86 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="BaseApplication::CutItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a0457f13f4b461515b9930424b5328cd0",tooltip="cut/move Item. @detail operation cut [target] [value] cut [target] store on Heap and delete it cut [t..."];
+  Node87 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="BaseApplication::NewItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#ab4822da88f1aae5e7d57aaf6ad962a78",tooltip="Create New Item in Current Folder. @detail operation mkdir [Value] (folder) or touch [Value] (file) m..."];
+  Node88 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="BaseApplication::DeleteItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#aa796bf53038391061da76617f2eb55aa",tooltip=" "];
+  Node89 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node90 [label="BaseApplication::UpdateItemName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a6146aad1d248e5cd6cf2623591be7ecc",tooltip="Update Item Name you search in Current Folder. @detail operation update [target] [value] it can be on..."];
+  Node90 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 [label="BaseApplication::Display\lItemInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8a64db7c6a721e65f4736b0fb3f0414e",tooltip="Display the Current Item Information which is in currentfolder on Screen. @detail operation info [Val..."];
+  Node91 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 [label="FolderType::NewFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#ae03b14686e13839c1fc4a1bc56795402",tooltip="Create New File in Current Folder. @detail If File name is overlap, add the number that how much is o..."];
+  Node92 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node93 [label="BaseApplication::Paste",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a567c67b347b15a02f194fa0d39d744f1",tooltip="paste Item. @detail operation paste [value] paste [target] paste heap data to Value default value is ..."];
+  Node93 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node94 [label="FolderType::RetrieveItems\lByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#aa510fd12acb7cc3408e24eb28657c810",tooltip=" "];
+  Node94 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node95 [label="BaseApplication::SearchItems\lByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a151a0f325cc865e21364723891f82a7a",tooltip="Retrieve and Display all Items that contain the keword in all child path."];
+  Node95 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node94 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

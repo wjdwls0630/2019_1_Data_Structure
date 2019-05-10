@@ -1,0 +1,12 @@
+digraph "LinkedHistoryStack::GetLength"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node12 [label="LinkedHistoryStack\l::GetLength",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get a number of Items in current Linked History Stack."];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="LinkedHistoryStack\l\< FolderType * \>::LinkedHistory\lStack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_history_stack.html#a932131f01829c60a754d9c40dfb4d532",tooltip=" "];
+  Node12 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="LinkedHistoryStack\l\< FolderType * \>::operator=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_history_stack.html#a521594774ec8b354aa8d6d95b827464c",tooltip="Doing Deep copy by copy assignment operator."];
+}

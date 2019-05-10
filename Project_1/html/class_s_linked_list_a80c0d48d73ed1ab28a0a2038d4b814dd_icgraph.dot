@@ -1,0 +1,43 @@
+digraph "SLinkedList::ResetList"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node91 [label="SLinkedList::ResetList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Initialize current pointer for an iteration through the list. (make nullptr)"];
+  Node91 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 [label="FolderType::operator+=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a461654b53ad3cc83bd69ff5a4b00cc8c",tooltip="Doing combine two different folder."];
+  Node91 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node93 [label="FolderType::RetrieveItems\lByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#aa510fd12acb7cc3408e24eb28657c810",tooltip=" "];
+  Node93 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node94 [label="BaseApplication::SearchItems\lByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a151a0f325cc865e21364723891f82a7a",tooltip="Retrieve and Display all Items that contain the keword in all child path."];
+  Node94 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node95 [label="BaseApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8f2ce8add401a3b537f041df9f7ef978",tooltip="Program driver."];
+  Node93 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 -> Node96 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node96 [label="FolderType::SortSubItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a011460ae72d46ccbc2cf244351051c30",tooltip="Sort SubItem list."];
+  Node96 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node96 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node96 -> Node97 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node97 [label="BaseApplication::SortAll\lItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a724f6683cecf22b645fb68c98b55e1f8",tooltip="sort items in curret folder by value criteria."];
+  Node97 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 -> Node98 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node98 [label="FolderType::DisplayAllSub\lItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a4b9d16532a9e7f231a55eb6690ad83ab",tooltip="Display the Current Folder's SubFolder List on Screen. @detail if there is no sub folders return;."];
+  Node98 -> Node99 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node99 [label="BaseApplication::Display\lAllItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#ac28d5ec00b676d6b79998ac6c0d3ce45",tooltip="Display the Current Folder's SubItem List on Screen. @detail operation ls."];
+  Node99 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 -> Node100 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node100 [label="FolderType::DisplayAllSub\lItemsDetail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a6c99cb4ce18913d353de018761054ada",tooltip="Display the Current Folder's SubFolder List on Screen. @detail if there is no sub folders return;."];
+  Node100 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node100 -> Node101 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node101 [label="BaseApplication::Display\lAllItemsDetail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a55b0eb56ea6be6dcb4e89737e584c95c",tooltip="Display the Current Folder's SubItem List of info on Screen. @detail operation ls a."];
+  Node101 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 -> Node102 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node102 [label="FolderType::ResetFolderKey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a7121baee91e41e0cae92c4541e715bbe",tooltip="Reset all items key."];
+  Node102 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node102 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 -> Node103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node103 [label="SLinkedList\< FileType\l \>::SLinkedList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_linked_list.html#ad85673fc4bee8060eb499bf45e762014",tooltip=" "];
+  Node91 -> Node104 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node104 [label="SLinkedList\< FileType\l \>::operator=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_linked_list.html#a47974b4e556cfb3a7a52827b2894cd2c",tooltip="Doing Deep copy by copy assignment operator."];
+}

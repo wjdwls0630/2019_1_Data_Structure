@@ -1,0 +1,54 @@
+digraph "FolderStructure"
+{
+  graph [label="Folder & File Structures" fontname="Helvetica"]
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+ // LATEX_PDF_SIZE
+
+ subgraph Root{
+ Root [label="Root",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="using Path processor find TargetFolder @detail trace the folder path"];
+ }
+
+ subgraph level1{
+   aaa1 [label="aaa"]
+   apple [label="apple"]
+   kkaa [label="kkaa"]
+   kkaa_1 [label="kkaa_1"]
+   lll [label="lll"]
+   aaatxt [label="aaa.txt"]
+ }
+
+ subgraph level2{
+  aaa2 [label="aaa"]
+  bbb [label="bbb"]
+  ccc [label="ccc"]
+  ddd [label="ddd"]
+  kkk [label="kkk"]
+  aoo [label="aoo"]
+  aaajpg [label="aaa.jpg"]
+ }
+
+ subgraph level3{
+  abctxt [label="abc.txt"]
+ }
+
+ //Connection
+
+ {rank=min;Root}
+  {rank=same;aaa1;apple;kkaa;kkaa_1;lll;aaatxt;}
+    Root->{aaa1,apple,kkaa,kkaa_1,lll,aaatxt}
+
+ {rank=same;aaa2;bbb;ccc;ddd;kkk;aoo;aaajpg;}
+   aaa1->{aaa2,bbb,ccc}
+   apple->{ddd,kkk,aoo}
+   kkaa->aaajpg
+   ddd->abctxt
+
+  {rank=max;abctxt;}
+
+
+
+
+
+
+}

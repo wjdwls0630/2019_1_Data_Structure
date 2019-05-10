@@ -1,0 +1,18 @@
+digraph "LinkedStack::LinkedStack"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="LinkedStack::LinkedStack",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="LinkedStack::GetLength",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_stack.html#ae876cc5a9206cc5ff4cb1ca87c66b0b4",tooltip="Get a number of Items in current Linked Stack."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="LinkedStack::Push",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_stack.html#ab4961a4b2dbce1a775089403252d35f6",tooltip="add a new data to the top of Linked Stack. if Linked Stack is full throw FullLinked Stack Exception"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="NodeType::SetData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_type.html#a0547d50991d996c3fe8d8ba3fc98e3a1",tooltip="Set Data."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="NodeType::SetnLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_node_type.html#aa7824b541361a113d86900d84e132f9e",tooltip="Set Pointer to Next Node."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="LinkedStack::Top",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_stack.html#a64353c0e0a4ac24b088d65a32abc581b",tooltip=" "];
+}

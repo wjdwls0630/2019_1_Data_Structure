@@ -1,0 +1,16 @@
+digraph "ItemType::GetModifiedTime"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node82 [label="ItemType::GetModifiedTime",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get Modified Time."];
+  Node82 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="FileType::operator\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_type.html#a54ba6a6edbb24da53b9989f1099ce0af",tooltip="Comparing File name is smaller. (by key)"];
+  Node82 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="FileType::operator\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_file_type.html#a47def0624e9c000e3acae308d46e67a1",tooltip="Comparing File name is bigger. (by key)"];
+  Node82 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="FolderType::operator\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#ac5644b2d011697f2100f8c6b21f43c9d",tooltip="Comparing Folder name is smaller. (by key)"];
+  Node82 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="FolderType::operator\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#aa81e2130b70c6bbcff9fa8cfad057dc1",tooltip="Comparing Folder name is bigger. (by key)"];
+}

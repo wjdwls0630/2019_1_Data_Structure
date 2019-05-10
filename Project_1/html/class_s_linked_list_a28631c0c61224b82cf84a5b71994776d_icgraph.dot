@@ -1,0 +1,32 @@
+digraph "SLinkedList::GetNextItem"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node51 [label="SLinkedList::GetNextItem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="move list iterator to the next item in list and get that item."];
+  Node51 -> Node52 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 [label="FolderType::operator+=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a461654b53ad3cc83bd69ff5a4b00cc8c",tooltip="Doing combine two different folder."];
+  Node51 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="FolderType::RetrieveItems\lByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#aa510fd12acb7cc3408e24eb28657c810",tooltip=" "];
+  Node53 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="BaseApplication::SearchItems\lByName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a151a0f325cc865e21364723891f82a7a",tooltip="Retrieve and Display all Items that contain the keword in all child path."];
+  Node54 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="BaseApplication::Run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a8f2ce8add401a3b537f041df9f7ef978",tooltip="Program driver."];
+  Node53 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node51 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="FolderType::DisplayAllSub\lItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a4b9d16532a9e7f231a55eb6690ad83ab",tooltip="Display the Current Folder's SubFolder List on Screen. @detail if there is no sub folders return;."];
+  Node56 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="BaseApplication::Display\lAllItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#ac28d5ec00b676d6b79998ac6c0d3ce45",tooltip="Display the Current Folder's SubItem List on Screen. @detail operation ls."];
+  Node57 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node51 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="FolderType::DisplayAllSub\lItemsDetail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#a6c99cb4ce18913d353de018761054ada",tooltip="Display the Current Folder's SubFolder List on Screen. @detail if there is no sub folders return;."];
+  Node58 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 -> Node59 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="BaseApplication::Display\lAllItemsDetail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_application.html#a55b0eb56ea6be6dcb4e89737e584c95c",tooltip="Display the Current Folder's SubItem List of info on Screen. @detail operation ls a."];
+  Node59 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node51 -> Node60 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node60 [label="SLinkedList\< FileType\l \>::SLinkedList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_linked_list.html#ad85673fc4bee8060eb499bf45e762014",tooltip=" "];
+  Node51 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="SLinkedList\< FileType\l \>::operator=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_linked_list.html#a47974b4e556cfb3a7a52827b2894cd2c",tooltip="Doing Deep copy by copy assignment operator."];
+}

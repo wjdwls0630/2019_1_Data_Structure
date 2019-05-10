@@ -1,0 +1,14 @@
+digraph "DNodeType::SetnLink"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node15 [label="DNodeType::SetnLink",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Set Pointer to Next Node."];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="LinkedHistoryStack\l\< FolderType * \>::LinkedHistory\lStack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_history_stack.html#adf4fbea6de13390209ceeacd06b15412",tooltip=" "];
+  Node15 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="LinkedHistoryStack\l\< FolderType * \>::Push",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_history_stack.html#a63704ba13595040e206b4ca4d4a7feb0",tooltip=" "];
+  Node15 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="LinkedHistoryStack\l\< FolderType * \>::Pop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_history_stack.html#a2c6b65a0134d1be1eb9459143d4190eb",tooltip="Remove the top data from the Linked History Stack, if Linked Stack is empty throw EmptyLinked Stack E..."];
+}

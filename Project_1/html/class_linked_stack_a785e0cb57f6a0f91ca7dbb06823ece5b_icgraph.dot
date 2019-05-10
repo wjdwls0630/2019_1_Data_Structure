@@ -1,0 +1,12 @@
+digraph "LinkedStack::Pop"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node32 [label="LinkedStack::Pop",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Remove the top data from the Linked Stack, if Linked Stack is empty throw EmptyLinked Stack Exception..."];
+  Node32 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="LinkedStack::MakeEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_stack.html#a4bc0d2e654b9f9c592f34313bf844e84",tooltip="Make Linked Stack empty."];
+  Node33 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="LinkedStack::~LinkedStack",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_stack.html#a77b98b25c3b67367aa65fb04906b1735",tooltip=" "];
+}

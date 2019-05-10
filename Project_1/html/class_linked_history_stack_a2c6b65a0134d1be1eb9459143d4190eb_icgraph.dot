@@ -1,0 +1,10 @@
+digraph "LinkedHistoryStack::Pop"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node29 [label="LinkedHistoryStack::Pop",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Remove the top data from the Linked History Stack, if Linked Stack is empty throw EmptyLinked Stack E..."];
+  Node29 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="LinkedHistoryStack\l\< FolderType * \>::MakeEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_linked_history_stack.html#a8f7d33e10a2d71cc971e5a943571028d",tooltip="Make Linked History Stack empty."];
+}

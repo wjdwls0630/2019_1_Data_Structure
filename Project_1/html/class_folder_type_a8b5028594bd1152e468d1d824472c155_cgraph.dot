@@ -1,0 +1,12 @@
+digraph "FolderType::RetrieveFilePtrByName"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node153 [label="FolderType::RetrieveFile\lPtrByName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Retrieve the pointer of the one File you search in Current Folder."];
+  Node153 -> Node154 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node154 [label="ItemType::GetName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a6a8650790e4d0c8a212574cf77e23cb9",tooltip="Get Item name."];
+  Node153 -> Node155 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node155 [label="SLinkedList::GetPtr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_linked_list.html#a4519d71a8e2d58472ff6b3b3319f37af",tooltip="get the data which has same id in the list.(Sequential Search)"];
+}

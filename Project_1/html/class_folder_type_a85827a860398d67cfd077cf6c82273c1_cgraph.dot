@@ -1,0 +1,32 @@
+digraph "FolderType::DisplayInfoOnScreen"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node40 [label="FolderType::DisplayInfoOn\lScreen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Display Folder Info on screen."];
+  Node40 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="ItemType::DisplayNameOnScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a9533339965f24def60e48eaead2be08b",tooltip="Display Item Name on screen."];
+  Node40 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="ItemType::DisplayKindOnScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#ade53ef633d2eb9a0187e8ffb9a2bb45a",tooltip="Display Item Kind on screen."];
+  Node42 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="ItemType::WhatIs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#afd795276499e9f8a5ce163d51694440f",tooltip="Get ItemType kind."];
+  Node40 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="FolderType::DisplaySubItem\lNumberOnScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_folder_type.html#ac436ca0f7348cb783a224a465918308e",tooltip="Display SubItemNum on screen."];
+  Node40 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="ItemType::DisplayPathOnScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a65fe1e7258d88b5c212f35eb69604511",tooltip="Display Item Path on screen."];
+  Node40 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="ItemType::DisplayCreated\lTimeOnScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#aad2a741c6c1bf7560439be835835467a",tooltip="Display Item Created Time on screen."];
+  Node46 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="ItemType::MakeMonthToWord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a78b1b6a0b65a5c9e5e744ac70c0d57a1",tooltip="generate Month \"mm\" to word"];
+  Node46 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node48 [label="ItemType::MakeHourMinute\lToWord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a8bb2fb38a8263d044aeae28c411492ce",tooltip="generate hour,minute \"hhmm\" to Am,Pm(return)"];
+  Node40 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node49 [label="ItemType::DisplayModified\lTimeOnScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#ad860b88413f013c854e176738742a49d",tooltip="Display Item Modified Time on screen."];
+  Node49 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node49 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node50 [label="ItemType::DisplayAccessTime\lOnScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item_type.html#a1c5dd730d0501cc0e232f1f24493f59f",tooltip="Display Item Access Time on screen."];
+  Node50 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node50 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
