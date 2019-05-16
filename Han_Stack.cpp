@@ -45,26 +45,23 @@ public:
          if (p_list[i] == _item) {
             return i;
          }
-         return -1;
       }
+      return -1;
    }
    void push(int _item) {
-      if (size <= this->MAX_SIZE) {
-         this->p_list[this->size] = _item;
-         this->size++;
-      }
+     if (this->size==this->MAX_SIZE) {
+       return;
+     }
+     this->p_list[this->size++]= _item;
+
    }
    int pop(){
-      int popnum=0;
-      if (this->size <= 0) {
+      if (this->size == 0) {
          cout << "Error: NO item exist in the list" << endl;
+         return -1;
       }
-      else
-      {
-         popnum = this->p_list[this->size - 1];
-         this->size--;
-      }
-      return popnum;
+      this->size--;
+      return this->p_list[this->size];
    }
    void print()const{
       cout << "Items in the list : ";
@@ -74,9 +71,13 @@ public:
       }
       cout << endl;
    }
-   int get_size() { return size; }
+   int get_size() { return this->size; }
    int get_item(int _index) {
-      return p_list[_index];
+     if (_index>=this->size) {
+       std::cout << "Error: index is over" << '\n';
+       return -1;
+     }
+      return this->p_list[_index];
    }
    bool operator==(Stack& _s1) {
      /* 이것도 비슷한것 같은데 조금더 괜찮은 코드로 짜봄*/
@@ -113,6 +114,9 @@ int main() {
    s2.print();
 
    s1 += s2;
+
+   s1.print();
+   s2.print();
 
    cout << "s1 == s2 ? " << (s1==s2) << endl;
 
