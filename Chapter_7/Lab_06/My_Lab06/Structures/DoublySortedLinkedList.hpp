@@ -345,7 +345,7 @@ int DSLinkedList<T>::Get(T &data){
 
 // get the data which has same in the list.(Bi-directional Search)
 template <typename T>
-T* DSLinkedList<T>::GetPtr(T &data){
+T* DSLinkedList<T>::GetPtr(T data){
   if (this->dsl_Length==0) { //if has no data
     return 0;
   }
@@ -480,7 +480,7 @@ int DSLinkedList<T>::Delete(T data){
         delete iter.m_CurPointer;
       }
     }
-  } else if (data==this->dsl_MidPointer->GetData()) {
+  } else if (data->operator==(this->dsl_MidPointer->GetData())) {
     iter.m_CurPointer=this->dsl_MidPointer;
     iter.m_CurPointer->GetpLink()->SetnLink(iter.m_CurPointer->GetnLink());
     iter.m_CurPointer->GetnLink()->SetpLink(iter.m_CurPointer->GetpLink());
@@ -546,4 +546,5 @@ DSLinkedList<T>& DSLinkedList<T>::operator= (DSLinkedList<T>& dslist){
 	}
 	return *this;
 }
+
 #endif /* _SORTEDLINKEDLIST_HPP */

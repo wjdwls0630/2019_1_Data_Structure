@@ -35,7 +35,7 @@ public:
     if (fd.fdSubItemNum!=0) {
       this->fdSubItemList=new DSLinkedList<ItemType*>;
       DoublyIterator<ItemType*>iter(*fd.fdSubItemList);
-      ItemType* Copy_Folder; //for copy folder
+      ItemType* Copy_Folder = nullptr; //for copy folder
       iter.Next(); // move iterator next
       while (!iter.IsTail()) {
         if (iter.Cur()->WhatIs()=="File") { // file type

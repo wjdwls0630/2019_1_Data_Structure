@@ -10,7 +10,7 @@ FolderType& FolderType::operator= (const FolderType& fd){
 		if (fd.fdSubItemNum!=0) {
 			this->fdSubItemList=new DSLinkedList<ItemType*>;
 			DoublyIterator<ItemType*>iter(*fd.fdSubItemList);
-			ItemType* Copy_Folder; //for copy folder
+			ItemType* Copy_Folder = nullptr; //for copy folder
 			iter.Next(); // move iterator next
 			while (!iter.IsTail()) {
 				if (iter.Cur()->WhatIs()=="File") { // file type
@@ -79,7 +79,6 @@ int FolderType::NewItem(ItemType* Temp_Item){
 			Temp_Item->SetName(Temp_Name);
 			// If Folder OverLap Set new Path
 			Temp_Item->SetPath(this->GetPath()+"/"+Temp_Item->GetName()); // Set SubFolder path
-
 		} else if (Temp_Item->WhatIs().find("File")!=std::string::npos){// if file
 
 			Temp_Name=Temp_Item->GetName().substr(0,Temp_Item->GetName().find('.') );
@@ -94,7 +93,6 @@ int FolderType::NewItem(ItemType* Temp_Item){
 			Temp_Item->SetName(Temp_Name+std::to_string(OverLapCount)+'.'+dynamic_cast<FileType*>(Temp_Item)->GetExtensions());
 			// If Folder OverLap Set new Path
 			Temp_Item->SetPath(this->GetPath()+"/"+Temp_Item->GetName()); // Set SubFolder path
-
 		}
 	}
 

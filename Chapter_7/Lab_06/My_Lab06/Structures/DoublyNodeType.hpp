@@ -56,7 +56,7 @@ public:
   *	@post	Get Data.
   *	@return	Data.
   */
-  T GetData() { return this->Data; }
+  T GetData() const { return this->Data; }
   /**
   *	@brief	Get Data pointer.
   *	@pre	Data should be initialized.

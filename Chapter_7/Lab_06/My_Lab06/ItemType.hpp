@@ -323,6 +323,114 @@ public:
   std::string MakeHourMinuteToWord(std::string time);
 
 
+  //operator overloading
+
+  /**
+    *	@brief	Comparing Folder path is same. (for object real same )
+    *	@pre	none.
+      *	@post	none.
+      *	@param	another Folder type folder that you want to Compare.
+      *	@return	return true if name is same, otherwise false.
+      */
+    bool operator == (const ItemType &it) const {
+        if (this->WhatIs()!=it.WhatIs()){
+            return false;
+        }
+        return this->itPath==it.itPath;
+    }
+
+    /**
+    *	@brief	Comparing Folder path is different. (for object real different )
+    *	@pre	none.
+    *	@post	none.
+    *	@param	another Folder type folder that you want to Compare.
+    *	@return	return true if name is different, otherwise false.
+    */
+    bool operator!=(const ItemType &it) const {
+        if (this->WhatIs()==it.WhatIs()){
+            return false;
+        }
+        return this->itPath!=it.itPath;
+    }
+
+
+
+    /**
+    *	@brief	Comparing Folder name is smaller. (by key)
+    *	@pre	none.
+    *	@post	none.
+    *	@param	another Folder type folder that you want to Compare.
+    *	@return	return true if pre is smaller than post, otherwise false.
+    */
+    bool operator<(const ItemType &it) const {
+
+        bool result;
+        switch (this->itKey) {
+            case KeyValue::NAME:
+                result = this->itName<it.itName;
+                break;
+            case KeyValue::CREATEDTIME:
+                result = this->itCreatedTime<it.itCreatedTime;
+                break;
+            case KeyValue::MODIFIEDTIME:
+                result = this->itModifiedTime<it.itModifiedTime;
+                break;
+            case KeyValue::ACCESSTIME:
+                result = this->itAccessTime<it.itAccessTime;
+                break;
+        }
+        return result;
+    }
+
+
+    /**
+    *	@brief	Comparing Folder name is bigger. (by key)
+    *	@pre	none.
+    *	@post	none.
+    *	@param	another Folder type folder that you want to Compare.
+    *	@return	return true if pre is bigger than post, otherwise false.
+    */
+    bool operator>(const ItemType &it) const {
+
+        bool result;
+        switch (this->itKey) {
+            case KeyValue::NAME:
+                result = this->itName>it.itName;
+                break;
+            case KeyValue::CREATEDTIME:
+                result = this->itCreatedTime>it.itCreatedTime;
+                break;
+            case KeyValue::MODIFIEDTIME:
+                result = this->itModifiedTime>it.itModifiedTime;
+                break;
+            case KeyValue::ACCESSTIME:
+                result = this->itAccessTime>it.itAccessTime;
+                break;
+        }
+        return result;
+    }
+
+    /**
+    *	@brief	Doing Deep copy by copy assignment operator.
+    *	@pre	data already set info.
+    *	@post	object copy data by deep.
+    *	@param	data that you want to be copied.
+    *	@return	return self-reference if self and data is not same object, otherwise self unchanged.
+    */
+    ItemType& operator= (const ItemType& it){
+        if(this!=&it){
+            this->itName = it.itName;
+            this->itPath = it.itPath;
+            this->itCreatedTime = it.itCreatedTime;
+            this->itModifiedTime = it.itModifiedTime;
+            this->itAccessTime = it.itAccessTime;
+            this->itKey = it.itKey;
+        }
+        return *this;
+    }
+
+
+
   /**
   *	@brief	display folder name by cout.
   *	@pre	set folder name.
@@ -332,6 +440,123 @@ public:
   *	@return	return ostream filename
   */
   friend std::ostream & operator<<(std::ostream & os, const ItemType & it) { return os<<it.itName ;}
+
+
+    //pointer operator overloading
+
+    /**
+      *	@brief	Comparing Folder path is same. (for object real same )
+      *	@pre	none.
+        *	@post	none.
+        *	@param	another Folder type folder that you want to Compare.
+        *	@return	return true if name is same, otherwise false.
+        */
+    bool operator == (const ItemType* it) const {
+        if (this->WhatIs()!=it->WhatIs()){
+            return false;
+        }
+        return this->itPath==it->itPath;
+    }
+
+    /**
+    *	@brief	Comparing Folder path is different. (for object real different )
+    *	@pre	none.
+    *	@post	none.
+    *	@param	another Folder type folder that you want to Compare.
+    *	@return	return true if name is different, otherwise false.
+    */
+    bool operator!=(const ItemType* it) const {
+        if (this->WhatIs()==it->WhatIs()){
+            return false;
+        }
+        return this->itPath!=it->itPath;
+    }
+
+
+
+    /**
+    *	@brief	Comparing Folder name is smaller. (by key)
+    *	@pre	none.
+    *	@post	none.
+    *	@param	another Folder type folder that you want to Compare.
+    *	@return	return true if pre is smaller than post, otherwise false.
+    */
+    bool operator<(const ItemType* it) const {
+
+        bool result;
+        switch (this->itKey) {
+            case KeyValue::NAME:
+                result = this->itName<it->itName;
+                break;
+            case KeyValue::CREATEDTIME:
+                result = this->itCreatedTime<it->itCreatedTime;
+                break;
+            case KeyValue::MODIFIEDTIME:
+                result = this->itModifiedTime<it->itModifiedTime;
+                break;
+            case KeyValue::ACCESSTIME:
+                result = this->itAccessTime<it->itAccessTime;
+                break;
+        }
+        return result;
+    }
+
+
+    /**
+    *	@brief	Comparing Folder name is bigger. (by key)
+    *	@pre	none.
+    *	@post	none.
+    *	@param	another Folder type folder that you want to Compare.
+    *	@return	return true if pre is bigger than post, otherwise false.
+    */
+    bool operator>(const ItemType*it) const {
+
+        bool result;
+        switch (this->itKey) {
+            case KeyValue::NAME:
+                result = this->itName>it->itName;
+                break;
+            case KeyValue::CREATEDTIME:
+                result = this->itCreatedTime>it->itCreatedTime;
+                break;
+            case KeyValue::MODIFIEDTIME:
+                result = this->itModifiedTime>it->itModifiedTime;
+                break;
+            case KeyValue::ACCESSTIME:
+                result = this->itAccessTime>it->itAccessTime;
+                break;
+        }
+        return result;
+    }
+
+    /**
+    *	@brief	Doing Deep copy by copy assignment operator.
+    *	@pre	data already set info.
+    *	@post	object copy data by deep.
+    *	@param	data that you want to be copied.
+    *	@return	return self-reference if self and data is not same object, otherwise self unchanged.
+    */
+    ItemType& operator= (const ItemType* it){
+        if(this->operator!=(it)){
+            this->itName = it->itName;
+            this->itPath = it->itPath;
+            this->itCreatedTime = it->itCreatedTime;
+            this->itModifiedTime = it->itModifiedTime;
+            this->itAccessTime = it->itAccessTime;
+            this->itKey = it->itKey;
+        }
+        return *this;
+    }
+
+    /**
+*	@brief	display folder name by cout.
+*	@pre	set folder name.
+*	@post	display folder name on screen.
+*	@param	ostream os.
+*	@param	folder to display on console.
+*	@return	return ostream filename
+*/
+    friend std::ostream & operator<<(std::ostream & os, const ItemType* it) { return os<<it->itName ;}
 
 
 

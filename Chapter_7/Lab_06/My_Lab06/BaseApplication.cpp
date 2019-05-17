@@ -8,7 +8,6 @@ void BaseApplication::Run(){
 // for using temp and target and process command
 	FolderType Temp_Folder;
 	FolderType Target_Folder;
-	FolderType* Target_FolderPtr;
 	ItemType* Target_Item;
 
 	LinkedQueue<std::string>PathQueue; // << for store path
@@ -31,7 +30,7 @@ void BaseApplication::Run(){
 	FolderType* Check_CurPtr=this->m_fdCurPointer;
 
 
-	// this->m_Command ±â·Ï ÀúÀåÇÒ ¹æ¹ý »ý°¢ÇØº¸±â
+	// this->m_Command ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Øºï¿½ï¿½ï¿½
 	while (this->GetCommand(this->m_Command)) {
 		//make command to operation and target (initiallize)
 		if (Check_CurPtr!=this->m_fdCurPointer) {
@@ -652,8 +651,7 @@ int BaseApplication::PathProcessor(std::string Path, LinkedQueue<std::string> &P
 
 // using Path processor find TargetFolder
 int BaseApplication::GetTargetItemInPath(std::string Target, ItemType* Target_Item, FolderType* Temp_curFolderPtr){
-	ItemType* Temp_Item; //for temp to move folder
-	FolderType* Temp_FolderPtr; //for temp to move folder
+	ItemType* Temp_Item = nullptr ; //for temp to move folder
 
 	// for path process
 	LinkedQueue<std::string> PathQueue;
@@ -821,7 +819,7 @@ int BaseApplication::NewItem(std::string Value){
 	Temp_Item->SetName(Value); // Set item Name
 	Temp_Item->SetPath(this->m_fdCurPointer->GetPath()+"/"+Value); // Set SubFile Path
 	if (this->m_fdCurPointer->NewItem(Temp_Item)) {
-		return 1; //Create New file
+		return 1; //Create New item
 	}
 	return 0;
 }
@@ -940,7 +938,7 @@ int BaseApplication::RunFile(std::string Target){
 	//already filter folder in Run()
 
 	//for setting value;
-	ItemType* Target_Item ;
+	ItemType* Target_Item = nullptr ;
 	std::string current_time;
 
 	if(this->GetTargetItemInPath(Target,Target_Item)){
@@ -960,7 +958,7 @@ int BaseApplication::RunFile(std::string Target){
 // Copy Item.
 int BaseApplication::CopyItem(std::string Target){
 	//already filter Target=="" in this->Run()
-  ItemType* Target_Item;
+  ItemType* Target_Item = nullptr ;
 
 	if (this->GetTargetItemInPath(Target,Target_Item)) {
 		// if Heap has another memory
@@ -993,7 +991,7 @@ int BaseApplication::CopyItem(std::string Target){
 // Cut/move Item.
 int BaseApplication::CutItem(std::string Target){
 	//already filter Target=="" in this->Run()
-  ItemType* Target_Item;
+  ItemType* Target_Item = nullptr ;
 	FolderType* Temp_curFolderPtr =nullptr;
 
 	if (this->GetTargetItemInPath(Target,Target_Item,Temp_curFolderPtr)) {
@@ -1038,7 +1036,7 @@ int BaseApplication::Paste(std::string Value){
 		throw NameError(Value);
 	}
 
-	ItemType* Target_Item;
+	ItemType* Target_Item = nullptr;
 
 	if (this->GetTargetItemInPath(Value, Target_Item)) {
 		//paste
