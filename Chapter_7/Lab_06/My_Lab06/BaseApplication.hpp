@@ -73,6 +73,7 @@ public:
   int GetOpCode(std::string Operation);
 
   // fuction to help
+  void GetHelp(std::string Operation);
 
   /**
   *	@brief	Check ItemType and Value is right.
@@ -102,32 +103,32 @@ public:
   * @param Target folder path , its Pointer and Temp_curFolderPtr(Target_FolderPtr's parent)
   *	@return	return 1 if the last word is folder, file 0.
   */
-  int GetTargetItemInPath(std::string Target, ItemType* Target_Item, FolderType* Temp_curFolderPtr=nullptr);
+  int GetTargetItemPtrInPath(std::string Target, ItemType**& Target_ItemPtr, FolderType* Temp_curFolderPtr=nullptr);
 
   // system management
-
   /**
-	* @brief	Create New Item in Current Folder.
-  * @detail operation mkdir [Value] (folder) or touch [Value] (file)
-            mkdir -o [Value] make folder and open
-            touch -r [Value] make file and run
-            it can be only controlled in current folder
-	* @pre	none.
-	*	@post	New Item is created in Current Folder.
-  * @param Item Name to create
-	*	@return	return 1 if this function works well, otherwise 0.
-	*/
+    * @brief	Create New Item in Current Folder.
+    * @detail operation mkdir [Value] (folder) or touch [Value] (file)
+              mkdir -o [Value] make folder and open
+              touch -r [Value] make file and run
+              it can be only controlled in current folder
+    * @pre	none.
+    * @post	New Item is created in Current Folder.
+    * @param Item Name to create
+    *	@return	return 1 if this function works well, otherwise 0.
+    */
+
   int NewItem(std::string Value);
 
   /**
-	*	@brief	Delete Item you search in Current Folder.
-  * @detail operation rm [Value]
-            rm * make current folder empty
-            it can be only controlled in current folder
-	*	@pre	SubItem is existed in Current Folder.
-	*	@post	Item you search is deleted in Current Folder.
-  * @param Item Name to delete
-	*	@return	return 1 if this function works well, otherwise 0.
+	* @brief	Delete Item you search in Current Folder.
+    * @detail operation rm [Value]
+              rm * make current folder empty
+              it can be only controlled in current folder
+	* @pre	SubItem is existed in Current Folder.
+	* @post	Item you search is deleted in Current Folder.
+    * @param Item Name to delete
+	* @return	return 1 if this function works well, otherwise 0.
 	*/
   int DeleteItem(std::string Value);
 
@@ -259,7 +260,7 @@ public:
   *	@param	the Item to add.
   *	@return	return 1 if this function works well, otherwise 0.
   */
-  int AddRecentItem(ItemType *Temp_Item);
+  int AddRecentItem(ItemType * Temp_Item);
 
   /**
   *	@brief	Display the Recent Item on Screen.

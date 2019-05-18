@@ -6,35 +6,35 @@ FolderType& FolderType::operator= (const FolderType& fd){
 		if (fd.fdSubItemNum!=0) { //initialize
 			this->MakeEmptyFolder();
 		}
-
 		if (fd.fdSubItemNum!=0) {
 			this->fdSubItemList=new DSLinkedList<ItemType*>;
 			DoublyIterator<ItemType*>iter(*fd.fdSubItemList);
 			ItemType* Copy_Folder = nullptr; //for copy folder
-			iter.Next(); // move iterator next
-			while (!iter.IsTail()) {
-				if (iter.Cur()->WhatIs()=="File") { // file type
-					iter.Cur()->SetPath(fd.GetPath()+"/"+iter.Cur()->GetName());
-					this->fdSubItemList->Add(iter.Cur());
-				} else if (iter.Cur()->WhatIs()=="Folder"){ // folder type
-					if (iter.Cur()->GetSubItemNum()!=0) { //if folder has sub items
-						*dynamic_cast<FolderType*>(Copy_Folder) = *dynamic_cast<FolderType*>(iter.Cur()); // call recursive operator =
-						Copy_Folder->SetPath(fd.GetPath()+"/"+Copy_Folder->GetName());
-						this->fdSubItemList->Add(Copy_Folder);
-					} else {
-						iter.Cur()->SetPath(fd.GetPath()+"/"+iter.Cur()->GetName());
-						this->fdSubItemList->Add(iter.Cur());
-					}
-					iter.Next(); //move iterator
-				}
-			}
+            while (!iter.NextIsTail()) {
+                if (iter.Next()->WhatIs()=="Folder") {
+                    //folder part
+                    if (iter.Cur()->GetSubItemNum()!=0) {
+                        Copy_Folder = new FolderType;
+                        *dynamic_cast<FolderType*>(Copy_Folder) = *dynamic_cast<FolderType*>(iter.Cur()); // call recursive operator =
+                        Copy_Folder->SetPath(fd.GetPath()+"/"+Copy_Folder->GetName());
+                        this->fdSubItemList->Add(Copy_Folder);
+                    } else {
+                        iter.Cur()->SetPath(fd.GetPath()+"/"+iter.Cur()->GetName());
+                        this->fdSubItemList->Add(iter.Cur());
+                    }
+                } else{
+                    // file part
+                    iter.Cur()->SetPath(fd.GetPath()+"/"+iter.Cur()->GetName());
+                    this->fdSubItemList->Add(iter.Cur());
+                }
+            }
 		}
 
 		// other property
 		this->ItemType::operator=(fd);
 		this->fdSubItemNum=fd.fdSubItemNum;
-    this->fdParentPtr=fd.fdParentPtr;
-  }
+        this->fdParentPtr=fd.fdParentPtr;
+	}
 	return *this;
 }
 
@@ -127,7 +127,7 @@ int FolderType::DeleteItem(ItemType* Temp_Item){
 }
 
 // 	Retrieve one Folder you search in Current Folder.
-int FolderType::RetrieveItemByName(ItemType* Target_Item){
+int FolderType::RetrieveItemByName(ItemType* &Target_Item){
 
 	if (this->fdSubItemNum==0) {
 		throw ItemNotFound(Target_Item->GetName());
@@ -159,13 +159,28 @@ FolderType FolderType::RetrieveItemsByName(std::string KeyWord){
 	FolderType Retrieve_Folder;
 	if (this->fdSubItemNum==0) {
 		throw EmptyFolder();
-		DoublyIterator<ItemType*> iter(*this->fdSubItemList);
-		if (iter.Next()->GetName().find(KeyWord)!=std::string::npos) {
-			Retrieve_Folder.NewItem(iter.Cur());
-		}
-		// call recursive when catch, end the loop
-		Retrieve_Folder+=dynamic_cast<FolderType*>(iter.Cur())->RetrieveItemsByName(KeyWord);
 	}
+    DoublyIterator<ItemType*> iter(*this->fdSubItemList);
+    while (!iter.NextIsTail()) {
+        //check item has keyword first
+        if (iter.Next()->GetName().find(KeyWord)!=std::string::npos) {
+            Retrieve_Folder.NewItem(iter.Cur());
+        }
+
+        if (iter.Cur()->WhatIs()=="Folder") {
+            if (iter.Cur()->GetSubItemNum()!=0) {
+                // call recursive when catch, end the loop
+                try{
+                    Retrieve_Folder+=dynamic_cast<FolderType*>(iter.Cur())->RetrieveItemsByName(KeyWord);
+                } catch(std::exception &ex){
+                    continue;
+                }
+            }
+        }
+
+
+
+    }
 
 	return Retrieve_Folder;
 }
@@ -222,12 +237,15 @@ void FolderType::DisplayAllSubItemsDetail(){
 	std::cout << "============ SubItem list ============" << '\n';
 	DoublyIterator<ItemType*> iter(*this->fdSubItemList);
 	while (!iter.NextIsTail()) {
-		if (iter.Next()->WhatIs()=="File") { // if File
-			std::cout << iter.Cur() <<"   "<<iter.Cur()->GetPath()<<"   "<<"1"<<"   "<<this->MakeMonthToWord(iter.Cur()->GetAccessTime().substr(4,2))<<" "<<iter.Cur()->GetAccessTime().substr(6,2)
-			<<" "<<this->MakeHourMinuteToWord(iter.Cur()->GetAccessTime().substr(8, 4))<<" "<<'\n';
+		if (iter.Next()->WhatIs()=="Folder") { // if Folder
+            std::cout << *iter.Cur() <<"   "<<iter.Cur()->GetPath()<<"   "<<iter.Cur()->GetSubItemNum()<<"   "
+            <<this->MakeMonthToWord(iter.Cur()->GetAccessTime().substr(4,2))<<" "<<iter.Cur()->GetAccessTime().substr(6,2)
+            <<" "<<this->MakeHourMinuteToWord(iter.Cur()->GetAccessTime().substr(8, 4))<<" "<<'\n';
+
 		} else{
-			std::cout << iter.Cur() <<"   "<<iter.Cur()->GetPath()<<"   "<<iter.Cur()->GetSubItemNum()<<"   "<<this->MakeMonthToWord(iter.Cur()->GetAccessTime().substr(4,2))<<" "<<iter.Cur()->GetAccessTime().substr(6,2)
-			<<" "<<this->MakeHourMinuteToWord(iter.Cur()->GetAccessTime().substr(8, 4))<<" "<<'\n';
+            std::cout << *iter.Cur() <<"   "<<iter.Cur()->GetPath()<<"   "<<"1"<<"   "
+            <<this->MakeMonthToWord(iter.Cur()->GetAccessTime().substr(4,2))<<" "<<iter.Cur()->GetAccessTime().substr(6,2)
+            <<" "<<this->MakeHourMinuteToWord(iter.Cur()->GetAccessTime().substr(8, 4))<<" "<<'\n';
 		}
 	}
 	std::cout << "======================================" << '\n';

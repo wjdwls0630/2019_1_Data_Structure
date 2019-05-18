@@ -310,6 +310,41 @@ public:
   DSLinkedList<T>& operator= (DSLinkedList<T>& dslist);
 };
 
+//specialize template get
+// get the data which has same in the list.(Bi-directional Search)
+template <typename T>
+int DSLinkedList<T>::Get(T &data){
+    if (this->dsl_Length==0) { //if has no data
+        return 0;
+    }
+    DoublyIterator<T> iter(*this);
+    if (this->dsl_Comparer.Compare(data,this->dsl_MidPointer->GetData())) {
+        //ASCENDING data<this->dsl_MidPointer->GetData() DESCENDING data>this->dsl_MidPointer->GetData()
+        while (iter.Next()!=this->dsl_MidPointer->GetData()) { //start to head and end in middle
+            //compare data and Node data
+            if (this->dsl_Comparer.IsEqual(data,iter.m_CurPointer->GetData())) { //compare list data and data to input
+                data->operator=(iter.m_CurPointer->GetData());
+                return 1;
+            }
+        }
+    } else if (this->dsl_Comparer.IsEqual(data,this->dsl_MidPointer->GetData())){ // if data and midPointer are same
+        data->operator=(this->dsl_MidPointer->GetData());
+        return 1;
+    } else{
+        iter.ResetToTail();
+        while (iter.Prev()!=this->dsl_MidPointer->GetData()) { //start to head and end in middle
+            //compare data and Node data
+            if (this->dsl_Comparer.IsEqual(data,iter.m_CurPointer->GetData())) { //compare list data and data to input
+                data->operator=(iter.m_CurPointer->GetData());
+                return 1;
+            }
+
+        }
+    }
+    return 0; // if not found
+}
+
+/*
 // get the data which has same in the list.(Bi-directional Search)
 template <typename T>
 int DSLinkedList<T>::Get(T &data){
@@ -342,10 +377,11 @@ int DSLinkedList<T>::Get(T &data){
   }
   return 0; // if not found
 }
+*/
 
 // get the data which has same in the list.(Bi-directional Search)
 template <typename T>
-T* DSLinkedList<T>::GetPtr(T data){
+T* DSLinkedList<T>::GetPtr(T &data){
   if (this->dsl_Length==0) { //if has no data
     return 0;
   }
@@ -474,13 +510,13 @@ int DSLinkedList<T>::Delete(T data){
   if (this->dsl_Comparer.Compare(data,this->dsl_MidPointer->GetData())) {
     while (iter.Next()!=this->dsl_MidPointer->GetData()) { //start to head and end in middle
       //compare data and Node data
-      if (iter.m_CurPointer->GetData()==data) { //compare list data and data to input
+      if (this->dsl_Comparer.IsEqual(data,iter.m_CurPointer->GetData())) { //compare list data and data to input
         iter.m_CurPointer->GetpLink()->SetnLink(iter.m_CurPointer->GetnLink());
         iter.m_CurPointer->GetnLink()->SetpLink(iter.m_CurPointer->GetpLink());
         delete iter.m_CurPointer;
       }
     }
-  } else if (data->operator==(this->dsl_MidPointer->GetData())) {
+  } else if (this->dsl_Comparer.IsEqual(data,this->dsl_MidPointer->GetData())) {
     iter.m_CurPointer=this->dsl_MidPointer;
     iter.m_CurPointer->GetpLink()->SetnLink(iter.m_CurPointer->GetnLink());
     iter.m_CurPointer->GetnLink()->SetpLink(iter.m_CurPointer->GetpLink());
@@ -489,7 +525,7 @@ int DSLinkedList<T>::Delete(T data){
     iter.ResetToTail();
     while (iter.Prev()!=this->dsl_MidPointer->GetData()) { //start to head and end in middle
       //compare data and Node data
-      if (iter.m_CurPointer->GetData()==data) { //compare list data and data to input
+      if (this->dsl_Comparer.IsEqual(data,iter.m_CurPointer->GetData())) { //compare list data and data to input
         iter.m_CurPointer->GetnLink()->SetpLink(iter.m_CurPointer->GetpLink());
         iter.m_CurPointer->GetpLink()->SetnLink(iter.m_CurPointer->GetnLink());
         delete iter.m_CurPointer;
@@ -513,8 +549,11 @@ void DSLinkedList<T>::Sort(){ //using merge sort
   // setting new sorted list
   this->SetHead(this->MergeSort(Temp_HeadPointer));
 
+
   // move Temp_Pointer to end
   DNodeType<T>* Temp_Pointer = this->GetHead();
+  // link first element to head node
+  Temp_Pointer->SetpLink(&this->dsl_Head_Node);
   while (Temp_Pointer->GetnLink()!=nullptr) {
     Temp_Pointer=Temp_Pointer->GetnLink();
   }

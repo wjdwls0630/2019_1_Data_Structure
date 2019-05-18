@@ -451,7 +451,7 @@ public:
         *	@param	another Folder type folder that you want to Compare.
         *	@return	return true if name is same, otherwise false.
         */
-    bool operator == (const ItemType* it) const {
+    bool operator == (const ItemType*& it) const {
         if (this->WhatIs()!=it->WhatIs()){
             return false;
         }
@@ -465,7 +465,7 @@ public:
     *	@param	another Folder type folder that you want to Compare.
     *	@return	return true if name is different, otherwise false.
     */
-    bool operator!=(const ItemType* it) const {
+    bool operator!=(const ItemType*& it) const {
         if (this->WhatIs()==it->WhatIs()){
             return false;
         }
@@ -481,7 +481,7 @@ public:
     *	@param	another Folder type folder that you want to Compare.
     *	@return	return true if pre is smaller than post, otherwise false.
     */
-    bool operator<(const ItemType* it) const {
+    bool operator<(const ItemType*& it) const {
 
         bool result;
         switch (this->itKey) {
@@ -509,7 +509,7 @@ public:
     *	@param	another Folder type folder that you want to Compare.
     *	@return	return true if pre is bigger than post, otherwise false.
     */
-    bool operator>(const ItemType*it) const {
+    bool operator>(const ItemType*& it) const {
 
         bool result;
         switch (this->itKey) {
@@ -537,7 +537,7 @@ public:
     *	@return	return self-reference if self and data is not same object, otherwise self unchanged.
     */
     ItemType& operator= (const ItemType* it){
-        if(this->operator!=(it)){
+        if(this!=&*it){
             this->itName = it->itName;
             this->itPath = it->itPath;
             this->itCreatedTime = it->itCreatedTime;
@@ -556,7 +556,7 @@ public:
 *	@param	folder to display on console.
 *	@return	return ostream filename
 */
-    friend std::ostream & operator<<(std::ostream & os, const ItemType* it) { return os<<it->itName ;}
+    friend std::ostream & operator<<(std::ostream & os, const ItemType*& it) { return os<<it->itName ;}
 
 
 

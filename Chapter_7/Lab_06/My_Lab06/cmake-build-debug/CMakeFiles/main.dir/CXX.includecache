@@ -6,9 +6,57 @@
 
 #IncludeRegexTransform: 
 
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/BaseApplication.cpp
+BaseApplication.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/BaseApplication.hpp
+
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/BaseApplication.hpp
+iostream
+-
+string
+-
+sstream
+-
+ItemType.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/ItemType.hpp
+FolderType.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/FolderType.hpp
+TextFileType.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/TextFileType.hpp
+JPGFileType.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/JPGFileType.hpp
+MP3FileType.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/MP3FileType.hpp
+Structures/LinkedHistoryStack.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Structures/LinkedHistoryStack.hpp
+Structures/LinkedQueue.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Structures/LinkedQueue.hpp
+Error/InvalidOperation.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/InvalidOperation.hpp
+Error/ItemNotFound.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/ItemNotFound.hpp
+Error/NameError.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/NameError.hpp
+Error/NoHistory.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/NoHistory.hpp
+Error/NoParent.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/NoParent.hpp
+
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/EmptyFolder.hpp
 
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/EmptyQueue.hpp
+
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/EmptyStack.hpp
+
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/InvalidOperation.hpp
+
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/ItemNotFound.hpp
+
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/NameError.hpp
+
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/NoHistory.hpp
+
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/NoParent.hpp
 
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/FileType.hpp
 string
@@ -19,10 +67,6 @@ TextApplication.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/TextApplication.hpp
 JPGApplication.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/JPGApplication.hpp
-
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/FolderType.cpp
-FolderType.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/FolderType.hpp
 
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/FolderType.hpp
 ItemType.hpp
@@ -66,6 +110,20 @@ fstream
 opencv2/opencv.hpp
 -
 
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/JPGFileType.hpp
+string
+-
+FileType.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/FileType.hpp
+TextApplication.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/TextApplication.hpp
+
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/MP3FileType.hpp
+string
+-
+FileType.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/FileType.hpp
+
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Structures/Comparer.hpp
 
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Structures/DoublyIterator.hpp
@@ -84,6 +142,24 @@ DoublyIterator.hpp
 Comparer.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Structures/Comparer.hpp
 
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Structures/LinkedHistoryStack.hpp
+DoublyNodeType.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Structures/DoublyNodeType.hpp
+../Error/EmptyStack.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/EmptyStack.hpp
+../Error/NoHistory.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/NoHistory.hpp
+
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Structures/LinkedQueue.hpp
+iostream
+-
+NodeType.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Structures/NodeType.hpp
+../Error/EmptyQueue.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Error/EmptyQueue.hpp
+
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/Structures/NodeType.hpp
+
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/TextApplication.hpp
 iostream
 -
@@ -91,6 +167,18 @@ string
 -
 fstream
 -
+
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/TextFileType.hpp
+string
+-
+FileType.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/FileType.hpp
+TextApplication.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/TextApplication.hpp
+
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/main.cpp
+BaseApplication.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_7/Lab_06/My_Lab06/BaseApplication.hpp
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

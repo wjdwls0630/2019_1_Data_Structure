@@ -35,7 +35,7 @@ public:
     if (fd.fdSubItemNum!=0) {
       this->fdSubItemList=new DSLinkedList<ItemType*>;
       DoublyIterator<ItemType*>iter(*fd.fdSubItemList);
-      ItemType* Copy_Folder = nullptr; //for copy folder
+      ItemType* Copy_Folder = new FolderType; //for copy folder
       iter.Next(); // move iterator next
       while (!iter.IsTail()) {
         if (iter.Cur()->WhatIs()=="File") { // file type
@@ -169,6 +169,7 @@ public:
 
   //operator overloading
 
+
   /**
 	*	@brief	Comparing Folder path is same. (for object real same )
 	*	@pre	none.
@@ -268,6 +269,7 @@ public:
     return result;
   }
 
+
   /**
   *	@brief	Doing Deep copy by copy assignment operator.
   *	@pre	data already set info.
@@ -324,7 +326,7 @@ public:
 	* @param Target Folder that you want
 	*	@return	return 1 if this function works well, otherwise 0.
 	*/
-  int RetrieveItemByName(ItemType* Target_Item);
+  int RetrieveItemByName(ItemType*& Target_Item);
 
   ItemType** RetrieveItemPtrByName(ItemType*& Target_Item);
 

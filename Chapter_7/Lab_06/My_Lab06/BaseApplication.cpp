@@ -9,6 +9,7 @@ void BaseApplication::Run(){
 	FolderType Temp_Folder;
 	FolderType Target_Folder;
 	ItemType* Target_Item;
+	ItemType** Target_ItemPtr;
 
 	LinkedQueue<std::string>PathQueue; // << for store path
 	LinkedQueue<std::string>CheckQueue; // << for store path
@@ -143,10 +144,10 @@ void BaseApplication::Run(){
 						throw NameError(Value);
 					}
 
-					if (this->GetTargetItemInPath(Value, Target_Item)) {
+					if (this->GetTargetItemPtrInPath(Value, Target_ItemPtr)) {
 
 						//find
-						this->m_fdCurPointer=dynamic_cast<FolderType*>(Target_Item);
+						this->m_fdCurPointer=dynamic_cast<FolderType*>(*Target_ItemPtr);
 
 						// store History
 						this->m_History.Push(this->m_fdCurPointer);
@@ -421,7 +422,7 @@ void BaseApplication::Run(){
 				std::cout << "Command \'help search\' give more information to you" << '\n';
 				break;
 			} catch(std::exception &ex){
-				std::cout <<"sort : " <<ex.what() << '\n';
+				std::cout <<"search : " <<ex.what() << '\n';
 				break;
 			}
 
@@ -650,8 +651,9 @@ int BaseApplication::PathProcessor(std::string Path, LinkedQueue<std::string> &P
 }
 
 // using Path processor find TargetFolder
-int BaseApplication::GetTargetItemInPath(std::string Target, ItemType* Target_Item, FolderType* Temp_curFolderPtr){
+int BaseApplication::GetTargetItemPtrInPath(std::string Target, ItemType**& Target_ItemPtr, FolderType* Temp_curFolderPtr){
 	ItemType* Temp_Item = nullptr ; //for temp to move folder
+	ItemType* Target_Item = nullptr ; // for find target item
 
 	// for path process
 	LinkedQueue<std::string> PathQueue;
@@ -710,7 +712,7 @@ int BaseApplication::GetTargetItemInPath(std::string Target, ItemType* Target_It
 			} else{
 				Target_Item->SetName(PathQueue.Front());
 				Target_Item->SetPath(Temp_curFolderPtr->GetPath()+"/"+PathQueue.Front());
-				if (!(Temp_curFolderPtr->RetrieveItemByName(Target_Item))) {
+				if (!(Target_ItemPtr=Temp_curFolderPtr->RetrieveItemPtrByName(Target_Item))) {
 					throw ItemNotFound(Target);
 				}
 
@@ -938,18 +940,18 @@ int BaseApplication::RunFile(std::string Target){
 	//already filter folder in Run()
 
 	//for setting value;
-	ItemType* Target_Item = nullptr ;
+	ItemType** Target_ItemPtr = nullptr ;
 	std::string current_time;
 
-	if(this->GetTargetItemInPath(Target,Target_Item)){
-		dynamic_cast<FileType*>(Target_Item)->Run();
+	if(this->GetTargetItemPtrInPath(Target,Target_ItemPtr)){
+		dynamic_cast<FileType*>(*Target_ItemPtr)->Run();
 
 		// add recent item
-		this->AddRecentItem(Target_Item);
+		this->AddRecentItem(*Target_ItemPtr);
 
 		//set access time
-		Target_Item->GenerateTime(current_time);
-		Target_Item->SetAccessTime(current_time);
+        (*Target_ItemPtr)->GenerateTime(current_time);
+        (*Target_ItemPtr)->SetAccessTime(current_time);
 		return 1;
 	}
 	return 0;
@@ -958,29 +960,29 @@ int BaseApplication::RunFile(std::string Target){
 // Copy Item.
 int BaseApplication::CopyItem(std::string Target){
 	//already filter Target=="" in this->Run()
-  ItemType* Target_Item = nullptr ;
+  ItemType** Target_ItemPtr = nullptr ;
 
-	if (this->GetTargetItemInPath(Target,Target_Item)) {
+	if (this->GetTargetItemPtrInPath(Target,Target_ItemPtr)) {
 		// if Heap has another memory
 		if (this->Heap!=nullptr) {
 			delete this->Heap;
 		}
-		if (Target_Item->WhatIs()=="Folder") {
+		if ((*Target_ItemPtr)->WhatIs()=="Folder") {
 			this->Heap = new FolderType;
 			//copy
-			*dynamic_cast<FolderType*>(this->Heap) = *dynamic_cast<FolderType*>(Target_Item);
-		} else if (Target_Item->WhatIs()=="TextFile") {
+			*dynamic_cast<FolderType*>(this->Heap) = *dynamic_cast<FolderType*>(*Target_ItemPtr);
+		} else if ((*Target_ItemPtr)->WhatIs()=="TextFile") {
 			this->Heap = new TextFileType;
 			//copy
-			*dynamic_cast<TextFileType*>(this->Heap) = *dynamic_cast<TextFileType*>(Target_Item);
-		} else if (Target_Item->WhatIs()=="JPGFile") {
+			*dynamic_cast<TextFileType*>(this->Heap) = *dynamic_cast<TextFileType*>(*Target_ItemPtr);
+		} else if ((*Target_ItemPtr)->WhatIs()=="JPGFile") {
 			this->Heap = new JPGFileType;
 			//copy
-			*dynamic_cast<JPGFileType*>(this->Heap) = *dynamic_cast<JPGFileType*>(Target_Item);
-		} else if (Target_Item->WhatIs()=="MP3File") {
+			*dynamic_cast<JPGFileType*>(this->Heap) = *dynamic_cast<JPGFileType*>(*Target_ItemPtr);
+		} else if ((*Target_ItemPtr)->WhatIs()=="MP3File") {
 			this->Heap = new MP3FileType;
 			//copy
-			*dynamic_cast<MP3FileType*>(this->Heap) = *dynamic_cast<MP3FileType*>(Target_Item);
+			*dynamic_cast<MP3FileType*>(this->Heap) = *dynamic_cast<MP3FileType*>(*Target_ItemPtr);
 		}
 		return 1;
 	}
@@ -991,35 +993,35 @@ int BaseApplication::CopyItem(std::string Target){
 // Cut/move Item.
 int BaseApplication::CutItem(std::string Target){
 	//already filter Target=="" in this->Run()
-  ItemType* Target_Item = nullptr ;
+    ItemType** Target_ItemPtr = nullptr ;
 	FolderType* Temp_curFolderPtr =nullptr;
 
-	if (this->GetTargetItemInPath(Target,Target_Item,Temp_curFolderPtr)) {
+	if (this->GetTargetItemPtrInPath(Target,Target_ItemPtr,Temp_curFolderPtr)) {
 		// if Heap has another memory
 		if (this->Heap!=nullptr) {
 			delete this->Heap;
 		}
-		if (Target_Item->WhatIs()=="Folder") {
+		if ((*Target_ItemPtr)->WhatIs()=="Folder") {
 			this->Heap = new FolderType;
 			//copy
-			*dynamic_cast<FolderType*>(this->Heap) = *dynamic_cast<FolderType*>(Target_Item);
-		} else if (Target_Item->WhatIs()=="TextFile") {
+			*dynamic_cast<FolderType*>(this->Heap) = *dynamic_cast<FolderType*>(*Target_ItemPtr);
+		} else if ((*Target_ItemPtr)->WhatIs()=="TextFile") {
 			this->Heap = new TextFileType;
 			//copy
-			*dynamic_cast<TextFileType*>(this->Heap) = *dynamic_cast<TextFileType*>(Target_Item);
-		} else if (Target_Item->WhatIs()=="JPGFile") {
+			*dynamic_cast<TextFileType*>(this->Heap) = *dynamic_cast<TextFileType*>(*Target_ItemPtr);
+		} else if ((*Target_ItemPtr)->WhatIs()=="JPGFile") {
 			this->Heap = new JPGFileType;
 			//copy
-			*dynamic_cast<JPGFileType*>(this->Heap) = *dynamic_cast<JPGFileType*>(Target_Item);
-		} else if (Target_Item->WhatIs()=="MP3File") {
+			*dynamic_cast<JPGFileType*>(this->Heap) = *dynamic_cast<JPGFileType*>(*Target_ItemPtr);
+		} else if ((*Target_ItemPtr)->WhatIs()=="MP3File") {
 			this->Heap = new MP3FileType;
 			//copy
-			*dynamic_cast<MP3FileType*>(this->Heap) = *dynamic_cast<MP3FileType*>(Target_Item);
+			*dynamic_cast<MP3FileType*>(this->Heap) = *dynamic_cast<MP3FileType*>(*Target_ItemPtr);
 		}
 
 		//delete
-		if (!Temp_curFolderPtr->DeleteItem(Target_Item)) {
-			throw ItemNotFound(Target_Item->GetName());
+		if (!Temp_curFolderPtr->DeleteItem(*Target_ItemPtr)) {
+			throw ItemNotFound((*Target_ItemPtr)->GetName());
 		}
 		return 1;
 	}
@@ -1036,13 +1038,13 @@ int BaseApplication::Paste(std::string Value){
 		throw NameError(Value);
 	}
 
-	ItemType* Target_Item = nullptr;
+	ItemType** Target_ItemPtr = nullptr;
 
-	if (this->GetTargetItemInPath(Value, Target_Item)) {
+	if (this->GetTargetItemPtrInPath(Value, Target_ItemPtr)) {
 		//paste
 		//set heap new path
-		this->Heap->SetPath(Target_Item->GetPath()+"/"+this->Heap->GetName());
-		dynamic_cast<FolderType*>(Target_Item)->NewItem(this->Heap);
+		this->Heap->SetPath((*Target_ItemPtr)->GetPath()+"/"+this->Heap->GetName());
+		dynamic_cast<FolderType*>(*Target_ItemPtr)->NewItem(this->Heap);
 		return 1;
 	}
 	return 0;
@@ -1136,7 +1138,7 @@ void BaseApplication::DisplayCurFolderInfo(){
 }
 
 // Add Item record in Recently Folder.
-int BaseApplication::AddRecentItem(ItemType *Temp_Item){
+int BaseApplication::AddRecentItem(ItemType * Temp_Item){
 	try{
 		if (this->m_RecentFolder.GetLength()==0) { //if no data in queue
 			this->m_RecentFolder.EnQueue(Temp_Item);
