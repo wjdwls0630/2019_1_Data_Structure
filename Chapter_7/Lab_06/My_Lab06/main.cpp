@@ -1,8 +1,8 @@
 /**
-*	@mainpage	DoublySortedLinkedList.
-*				This is a simple example of Lab05 on data structures course.<br>
+*	@mainpage	HeteroGeneousList.
+*				This is a simple example of Lab06 on data structures course.<br>
 *
-*	@date	2019.05.02
+*	@date	2019.05.18
 *	@author	ParkJungJin
 */
 

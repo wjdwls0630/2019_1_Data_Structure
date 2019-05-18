@@ -22,22 +22,24 @@ set(CMAKE_CXX_FLAGS "-g -o -Wall -std=c++17 ")
 set ( CMAKE_EXE_LINKER_FLAGS "-Wl" )
 
 set(SOURCE_FILES
-        BaseApplication.cpp
-        ItemType.cpp
-        FolderType.cpp
-        FileType.cpp
-        TextFileType.cpp
-        JPGFileType.cpp
-        MP3FileType.cpp
-        TextApplication.cpp
-        JPGApplication.cpp
-        main.cpp
+        ./BaseApplication.cpp
+        ./ItemType.cpp
+        ./FolderType.cpp
+        ./FileType.cpp
+        ./TextFileType.cpp
+        ./JPGFileType.cpp
+        ./MP3FileType.cpp
+        ./TextApplication.cpp
+        ./JPGApplication.cpp
+        ./main.cpp
         )
 
 set(CMKAE_VERBOSE_MAKEFILE ON)
 
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
+
+set(CMAKE_POSITION_INDEPENDENT_CODE TRUE)
 add_executable(main ${SOURCE_FILES} )
 
 target_link_libraries(main ${OpenCV_LIBS})

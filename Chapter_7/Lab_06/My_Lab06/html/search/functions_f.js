@@ -5,7 +5,7 @@ var searchData=
   ['setallinfo',['SetAllInfo',['../class_item_type.html#a1c62b9161ae9a36482c3c7d2982f098f',1,'ItemType']]],
   ['setcreatedtime',['SetCreatedTime',['../class_item_type.html#ace7940c9bd9ae417ebbe8de6e9468040',1,'ItemType']]],
   ['setdata',['SetData',['../class_d_node_type.html#a2a8c3e6d354cf05d086634ad1549bd02',1,'DNodeType::SetData()'],['../class_node_type.html#a0547d50991d996c3fe8d8ba3fc98e3a1',1,'NodeType::SetData()']]],
-  ['setdirection',['SetDirection',['../class_folder_type.html#a2c3b293789142f899b36249494c46850',1,'FolderType::SetDirection()'],['../class_comparer.html#a207a2a4939d0d4a2eaadbfc4515edbaf',1,'Comparer::SetDirection()'],['../class_d_s_linked_list.html#a40a82c360934ab9781203365a5fc6879',1,'DSLinkedList::SetDirection()']]],
+  ['setdirection',['SetDirection',['../class_folder_type.html#a2c3b293789142f899b36249494c46850',1,'FolderType::SetDirection()'],['../class_comparer.html#a513d3649ee45befd5455047f4c5cdd54',1,'Comparer::SetDirection()'],['../class_comparer_3_01_t_01_5_01_4.html#a9a0b501296ef33291299c1af1bdcd8ef',1,'Comparer&lt; T * &gt;::SetDirection()'],['../class_d_s_linked_list.html#a40a82c360934ab9781203365a5fc6879',1,'DSLinkedList::SetDirection()']]],
   ['setextensions',['SetExtensions',['../class_file_type.html#a0ed4831bb1173cc6a4a660afa58a5401',1,'FileType']]],
   ['sethead',['SetHead',['../class_d_s_linked_list.html#afc2979712919e6b2adbd0fa8a4756c1a',1,'DSLinkedList']]],
   ['setkeyvalue',['SetKeyValue',['../class_item_type.html#a25276f1548b037f2ebe350418934a89f',1,'ItemType::SetKeyValue(std::string inKey=&quot;&quot;)'],['../class_item_type.html#a6ab675fc6500cd2f850a3b5c53cac564',1,'ItemType::SetKeyValue(int inKey=0)']]],
