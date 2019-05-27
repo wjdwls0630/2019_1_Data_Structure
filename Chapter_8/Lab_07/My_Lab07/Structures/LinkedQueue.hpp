@@ -7,11 +7,11 @@
 
 /**
 *	@brief	LinkedQueue class.
-*	@details	This class processes as First In, First Out (FIFO), ÅÛÇÃ¸´À» Àû¿ëÇØ ´Ù¾çÇÑ º¯¼ö Å¸ÀÔÀ» ÀúÀåÇÒ ¼ö ÀÖ´Ù.
+*	@details	This class processes as First In, First Out (FIFO), ï¿½ï¿½ï¿½Ã¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½.
 */
 template <typename T>
 class LinkedQueue{
-private:
+protected:
   NodeType<T> lq_Head_Node;	/// Head node for programming list more easy. It has not data, only has real head pointer
   NodeType<T>* lq_Front;	//index of one infront of the first element.
   NodeType<T>* lq_Rear;	//index of the last element.
@@ -40,7 +40,7 @@ public:
   /**
   *	destructor.
   */
-	~LinkedQueue() {
+  ~LinkedQueue() {
     if(!this->IsEmpty()){
       this->MakeEmpty();
     }

@@ -18,10 +18,13 @@ CMakeFiles/main.dir/BaseApplication.cpp.o
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/JPGApplication.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/JPGFileType.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/MP3FileType.hpp
+ /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/AVLTree.hpp
+ /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryIterator.hpp
+ /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryNodeType.hpp
+ /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinarySearchTree.hpp
+ /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryTree.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/Comparer.hpp
- /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublyIterator.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublyNodeType.hpp
- /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublySortedLinkedList.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/LinkedHistoryStack.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/LinkedQueue.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/NodeType.hpp
@@ -280,10 +283,12 @@ CMakeFiles/main.dir/FolderType.cpp.o
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/FolderType.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/ItemType.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/JPGApplication.hpp
+ /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/AVLTree.hpp
+ /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryIterator.hpp
+ /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryNodeType.hpp
+ /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinarySearchTree.hpp
+ /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryTree.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/Comparer.hpp
- /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublyIterator.hpp
- /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublyNodeType.hpp
- /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublySortedLinkedList.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/TextApplication.hpp
  /usr/local/include/opencv4/opencv2/calib3d.hpp
  /usr/local/include/opencv4/opencv2/core.hpp
@@ -930,10 +935,13 @@ CMakeFiles/main.dir/main.cpp.o
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/JPGApplication.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/JPGFileType.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/MP3FileType.hpp
+ /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/AVLTree.hpp
+ /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryIterator.hpp
+ /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryNodeType.hpp
+ /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinarySearchTree.hpp
+ /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryTree.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/Comparer.hpp
- /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublyIterator.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublyNodeType.hpp
- /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublySortedLinkedList.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/LinkedHistoryStack.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/LinkedQueue.hpp
  /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/NodeType.hpp

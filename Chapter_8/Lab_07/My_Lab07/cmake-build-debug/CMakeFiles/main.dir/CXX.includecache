@@ -58,10 +58,6 @@ Error/NoParent.hpp
 
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Error/NoParent.hpp
 
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/FileType.cpp
-FileType.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/FileType.hpp
-
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/FileType.hpp
 string
 -
@@ -81,20 +77,16 @@ ItemType.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/ItemType.hpp
 FileType.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/FileType.hpp
-Structures/DoublySortedLinkedList.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublySortedLinkedList.hpp
-Structures/DoublyIterator.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublyIterator.hpp
+Structures/AVLTree.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/AVLTree.hpp
+Structures/BinaryIterator.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryIterator.hpp
 Error/ItemNotFound.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Error/ItemNotFound.hpp
 Error/EmptyFolder.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Error/EmptyFolder.hpp
 Error/ItemNotFound.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Error/ItemNotFound.hpp
-
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/ItemType.cpp
-ItemType.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/ItemType.hpp
 
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/ItemType.hpp
 iostream
@@ -112,10 +104,6 @@ ctime
 Structures/Comparer.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/Comparer.hpp
 
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/JPGApplication.cpp
-JPGApplication.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/JPGApplication.hpp
-
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/JPGApplication.hpp
 iostream
 -
@@ -126,10 +114,6 @@ fstream
 opencv2/opencv.hpp
 -
 
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/JPGFileType.cpp
-JPGFileType.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/JPGFileType.hpp
-
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/JPGFileType.hpp
 string
 -
@@ -138,33 +122,43 @@ FileType.hpp
 TextApplication.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/TextApplication.hpp
 
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/MP3FileType.cpp
-MP3FileType.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/MP3FileType.hpp
-
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/MP3FileType.hpp
 string
 -
 FileType.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/FileType.hpp
 
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/Comparer.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/AVLTree.hpp
+BinarySearchTree.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinarySearchTree.hpp
 
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublyIterator.hpp
-DoublyNodeType.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublyNodeType.hpp
-DoublySortedLinkedList.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublySortedLinkedList.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryIterator.hpp
+BinarySearchTree.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinarySearchTree.hpp
+BinaryNodeType.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryNodeType.hpp
 
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublyNodeType.hpp
-
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublySortedLinkedList.hpp
-DoublyNodeType.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublyNodeType.hpp
-DoublyIterator.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublyIterator.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryNodeType.hpp
 Comparer.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/Comparer.hpp
+BinaryIterator.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryIterator.hpp
+
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinarySearchTree.hpp
+BinaryTree.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryTree.hpp
+Comparer.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/Comparer.hpp
+
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryTree.hpp
+iostream
+-
+BinaryNodeType.hpp
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/BinaryNodeType.hpp
+
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/Comparer.hpp
+
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/DoublyNodeType.hpp
 
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/LinkedHistoryStack.hpp
 DoublyNodeType.hpp
@@ -184,10 +178,6 @@ NodeType.hpp
 
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/Structures/NodeType.hpp
 
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/TextApplication.cpp
-TextApplication.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/TextApplication.hpp
-
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/TextApplication.hpp
 iostream
 -
@@ -195,10 +185,6 @@ string
 -
 fstream
 -
-
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/TextFileType.cpp
-TextFileType.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/TextFileType.hpp
 
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Chapter_8/Lab_07/My_Lab07/TextFileType.hpp
 string

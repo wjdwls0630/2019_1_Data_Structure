@@ -7,7 +7,6 @@
 */
 
 #include "BaseApplication.hpp"
-
 /**
 *	program main function for data structures course.
 */

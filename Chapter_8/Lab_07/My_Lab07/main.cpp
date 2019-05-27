@@ -1,8 +1,8 @@
 /**
-*	@mainpage	BinaryTree.
+*	@mainpage	BinarySearchTree.
 *				This is a simple example of Lab07 on data structures course.<br>
 *
-*	@date	2019.05.18
+*	@date	2019.05.27
 *	@author	ParkJungJin
 */
 

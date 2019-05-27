@@ -1,20 +1,33 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2
-Using CMake version 3.14.3
-Before 'project':
-  C: ''
-  C++: ''
-  Source: 
-  Binary: 
-  Version: 
-  Version (alt): ..
--- The CXX compiler identification is AppleClang 10.0.1.10010046
--- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
--- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Found OpenCV: /usr/local (found version "4.1.0") 
+Generating 64bit code
+Using dynamic runtime library.
+Using connector lib at: /usr/local/mysql-connector-c++-8.0/lib64/libmysqlcppconn8.dylib
+CMake Warning at CMakeLists.txt:230 (message):
+  Using non-debug library for debug builds - this will not work on Windows
+
+
+-- location: /usr/local/mysql-connector-c++-8.0/lib64/libmysqlcppconn8.dylib
+Installing shared library dependencies.
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/libcrypto.1.0.0.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/libcrypto.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/libmysqlcppconn.7.8.0.16.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/libmysqlcppconn.7.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/libmysqlcppconn.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/libmysqlcppconn8.2.8.0.16.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/libmysqlcppconn8.2.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/libmysqlcppconn8.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/libssl.1.0.0.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/libssl.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/debug/libcrypto.1.0.0.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/debug/libcrypto.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/debug/libmysqlcppconn.7.8.0.16.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/debug/libmysqlcppconn.7.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/debug/libmysqlcppconn.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/debug/libmysqlcppconn8.2.8.0.16.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/debug/libmysqlcppconn8.2.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/debug/libmysqlcppconn8.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/debug/libssl.1.0.0.dylib
+-- Up-to-date: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug/run/debug/libssl.dylib
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/cmake-build-debug

@@ -3,8 +3,9 @@
 
 #include "ItemType.hpp"
 #include "FileType.hpp"
-#include "Structures/DoublySortedLinkedList.hpp"
-#include "Structures/DoublyIterator.hpp"
+#include "Structures/AVLTree.hpp"
+#include "Structures/BinaryIterator.hpp"
+
 #include "Error/ItemNotFound.hpp"
 #include "Error/EmptyFolder.hpp"
 #include "Error/ItemNotFound.hpp"
@@ -18,14 +19,14 @@ class FolderType : public ItemType{
 private:
   int fdSubItemNum; // number of subitem in current folder
   FolderType* fdParentPtr; // point this folder's parent
-  DSLinkedList<ItemType*>* fdSubItemList; // subfolderlist
+  AVLTree<ItemType*>* fdSubItemList; // subfolderlist
 
 public:
   /**
   *	default constructor.
   */
   FolderType (std::string inName="untitled")
-  :ItemType(inName),fdSubItemNum(0){}
+  :ItemType(inName),fdSubItemNum(0), fdSubItemList(nullptr){}
 
   /**
   *	copy constructor.(by deep copy)
@@ -33,29 +34,12 @@ public:
   FolderType(const FolderType& fd)
   : ItemType(fd){
     if (fd.fdSubItemNum!=0) {
-      this->fdSubItemList=new DSLinkedList<ItemType*>;
-      DoublyIterator<ItemType*>iter(*fd.fdSubItemList);
-      ItemType* Copy_Folder = new FolderType; //for copy folder
-      iter.Next(); // move iterator next
-      while (!iter.IsTail()) {
-        if (iter.Cur()->WhatIs()=="File") { // file type
-          iter.Cur()->SetPath(fd.GetPath()+"/"+iter.Cur()->GetName());
-          this->fdSubItemList->Add(iter.Cur());
-        } else if (iter.Cur()->WhatIs()=="Folder"){ // folder type
-          if (iter.Cur()->GetSubItemNum()!=0) { //if folder has sub items
-            *dynamic_cast<FolderType*>(Copy_Folder) = *dynamic_cast<FolderType*>(iter.Cur()); // call recursive operator =
-            Copy_Folder->SetPath(fd.GetPath()+"/"+Copy_Folder->GetName());
-            this->fdSubItemList->Add(Copy_Folder);
-          } else {
-            iter.Cur()->SetPath(fd.GetPath()+"/"+iter.Cur()->GetName());
-            this->fdSubItemList->Add(iter.Cur());
-          }
-          iter.Next(); //move iterator
-        }
-      }
+        this->fdSubItemList = new AVLTree<ItemType*>;
+        this->fdSubItemList->CopyNodeRecur(fd.fdSubItemList->GetRoot());
+        //set other property
+        this->fdSubItemNum=fd.fdSubItemNum;
+        this->fdParentPtr=fd.fdParentPtr;
     }
-    this->fdSubItemNum=fd.fdSubItemNum;
-    this->fdParentPtr=fd.fdParentPtr;
   }
 
   /**
@@ -69,12 +53,8 @@ public:
 
   void MakeEmptyFolder(){
     if(this->fdSubItemNum!=0){
-      DoublyIterator<ItemType*>iter(*this->fdSubItemList);
-      while (!iter.NextIsTail()) {
-        if (iter.Next()->GetSubItemNum()!=0) {
-          delete iter.Cur();
-        }
-      }
+        this->fdSubItemList->MakeEmpty();
+        this->fdSubItemList = nullptr; //init fdSubItemList
     }
     this->fdSubItemNum=0;
   }
@@ -280,7 +260,7 @@ public:
 	* @param	the Item to delete.
 	*	@return	return 1 if this function works well, otherwise 0.
 	*/
-  int DeleteItem(ItemType* Temp_Item); // »èÁ¦ÇÒ Æú´õ Á¤º¸¸¦ ÀÐ¾î¼­ ÇØ´ç Æú´õ¸¦ Ã£¾Æ¼­ »èÁ¦
+  int DeleteItem(ItemType* Temp_Item); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð¾î¼­ ï¿½Ø´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã£ï¿½Æ¼ï¿½ ï¿½ï¿½ï¿½ï¿½
 
   /**
 	*	@brief	Retrieve one Item you search in Current Folder.

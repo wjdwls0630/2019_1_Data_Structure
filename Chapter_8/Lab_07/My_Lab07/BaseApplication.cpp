@@ -35,8 +35,10 @@ void BaseApplication::Run(){
 	while (this->GetCommand(this->m_Command)) {
 		//make command to operation and target (initiallize)
 		if (Check_CurPtr!=this->m_fdCurPointer) {
-			Check_CurPtr->ResetFolderKey();
-			Check_CurPtr->SortSubItems("");
+            if (Check_CurPtr->GetKey()!=0) {
+                Check_CurPtr->ResetFolderKey();
+                Check_CurPtr->SortSubItems("");
+            }
 		}
 
 		// make path queue clear

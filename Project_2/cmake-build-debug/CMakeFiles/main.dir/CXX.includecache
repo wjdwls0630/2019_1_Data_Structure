@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/BaseApplication.cpp
-BaseApplication.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/BaseApplication.hpp
-
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/BaseApplication.hpp
 iostream
 -
@@ -58,10 +54,6 @@ Error/NoParent.hpp
 
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/Error/NoParent.hpp
 
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/FileType.cpp
-FileType.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/FileType.hpp
-
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/FileType.hpp
 string
 -
@@ -71,10 +63,6 @@ TextApplication.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/TextApplication.hpp
 JPGApplication.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/JPGApplication.hpp
-
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/FolderType.cpp
-FolderType.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/FolderType.hpp
 
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/FolderType.hpp
 ItemType.hpp
@@ -92,10 +80,6 @@ Error/EmptyFolder.hpp
 Error/ItemNotFound.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/Error/ItemNotFound.hpp
 
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/ItemType.cpp
-ItemType.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/ItemType.hpp
-
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/ItemType.hpp
 iostream
 -
@@ -112,10 +96,6 @@ ctime
 Structures/Comparer.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/Structures/Comparer.hpp
 
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/JPGApplication.cpp
-JPGApplication.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/JPGApplication.hpp
-
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/JPGApplication.hpp
 iostream
 -
@@ -126,10 +106,6 @@ fstream
 opencv2/opencv.hpp
 -
 
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/JPGFileType.cpp
-JPGFileType.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/JPGFileType.hpp
-
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/JPGFileType.hpp
 string
 -
@@ -137,10 +113,6 @@ FileType.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/FileType.hpp
 TextApplication.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/TextApplication.hpp
-
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/MP3FileType.cpp
-MP3FileType.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/MP3FileType.hpp
 
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/MP3FileType.hpp
 string
@@ -184,10 +156,6 @@ NodeType.hpp
 
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/Structures/NodeType.hpp
 
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/TextApplication.cpp
-TextApplication.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/TextApplication.hpp
-
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/TextApplication.hpp
 iostream
 -
@@ -195,10 +163,6 @@ string
 -
 fstream
 -
-
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/TextFileType.cpp
-TextFileType.hpp
-/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/TextFileType.hpp
 
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/TextFileType.hpp
 string
@@ -211,6 +175,28 @@ TextApplication.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/main.cpp
 BaseApplication.hpp
 /Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/BaseApplication.hpp
+stdlib.h
+-
+iostream
+-
+sstream
+-
+stdexcept
+-
+stdafx.h
+/Users/parkjungjin/Junior/First_Semester/DataStructures/2019_1_DataStructures/Project_2/stdafx.h
+mysql/mysql_connection.h
+-
+driver.h
+-
+cppconn/exception.h
+-
+cppconn/resultset.h
+-
+cppconn/statement.h
+-
+cppconn/prepared_statement.h
+-
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
