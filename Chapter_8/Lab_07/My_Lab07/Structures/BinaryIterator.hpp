@@ -81,48 +81,48 @@ public:
     //iterator bool
 
     /**
-  *	@brief	Check m_CurPointer is dsl_Head_Node.
+  *	@brief	Check cur_ptr == -1.
   *	@pre	none.
   *	@post	none.
-  *	@return	return true if m_CurPointer is dsl_Head_Node, otherwise return false.
+  *	@return	return true if cur_ptr == -1, otherwise return false.
   */
     bool IsHead();
 
     /**
-  *	@brief	Check m_CurPointer is dsl_Tail_Node.
+  *	@brief	Check cur_ptr == this->length.
   *	@pre	none.
   *	@post	none.
-  *	@return	return true if m_CurPointer is dsl_Tail_Node, otherwise return false.
+  *	@return	return true if cur_ptr == this->length, otherwise return false.
   */
     bool IsTail();
 
     /**
-  *	@brief	Check m_CurPointer prev is dsl_Head_Node.
+  *	@brief	Check cur_ptr prev is -1.
   *	@pre	none.
   *	@post	none.
-  *	@return	return true if m_CurPointer prev is dsl_Head_Node, otherwise return false.
+  *	@return	return true if cur_ptr prev is -1, otherwise return false.
   */
     bool PrevIsHead();
 
     /**
-  *	@brief	Check m_CurPointer next is dsl_Tail_Node.
+  *	@brief	Check cur_ptr next is this->length.
   *	@pre	none.
   *	@post	none.
-  *	@return	return true if m_CurPointer next is dsl_Tail_Node, otherwise return false.
+  *	@return	return true if cur_ptr next is this->length, otherwise return false.
   */
     bool NextIsTail();
 
     // iterator movement
 
     /**
-    *	@brief	Initialize current pointer for an iteration through the list. (make dsl_Head_Node)
+    *	@brief	Initialize current pointer for an iteration through the list. cur_ptr = -1 , m_CurPointer = nullptr
     *	@pre	None.
     *	@post	current pointer is prior to list. current pointer has been initialized.
     */
     void ResetToHead();
 
     /**
-    *	@brief	Initialize current pointer for an iteration through the list. (make dsl_Tail_Node)
+    *	@brief	Initialize current pointer for an iteration through the list.cur_ptr = this->length , m_CurPointer = nullptr
     *	@pre	None.
     *	@post	current pointer is prior to list. current pointer has been initialized.
     */

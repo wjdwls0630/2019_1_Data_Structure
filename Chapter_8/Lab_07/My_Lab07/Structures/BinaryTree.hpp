@@ -234,7 +234,7 @@ void BinaryTree<T>::MakeEmptyNode(BNodeType<T>* Node) {
     }
     //   delete all node
     if (Node->IsLeaf()) { // if node is leaf , (Base Case)
-        free(Node); //deallocate memory
+        delete Node; //deallocate memory
         return ;
     } else if(Node->GetLeftLink()== nullptr||Node->GetRightLink()==nullptr){
         //if node has left or right child only

@@ -40,6 +40,7 @@ public:
 
     /**
      *	@brief	Set Direction.
+     *	@details call this func reset the tree by direction order
      *	@pre	none.
      *	@post	Set Direction.
      *	@param Direction to set.

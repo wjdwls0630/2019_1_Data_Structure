@@ -12,6 +12,9 @@
  *	@brief	BinarySearchTree class.
  *	@details	This class processes as connected by BNodeType left and right pointer
  *	it has insert, delete , get(search) function
+ *	Caution :: it is not perfect generic for all types, it works when type is pointer,
+ *	if you want to use it when type is not pointer, fix the code data->operator=(Node->GetData()) to
+ *	data = Node->GetData()
  */
 template <typename T>
 class BinarySearchTree : public BinaryTree<T> {
