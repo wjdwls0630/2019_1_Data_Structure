@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['doublysortedlinkedlist_2e',['DoublySortedLinkedList.',['../index.html',1,'']]]
+  ['binarysearchtree_2e',['BinarySearchTree.',['../index.html',1,'']]]
 ];

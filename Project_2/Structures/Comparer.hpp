@@ -84,6 +84,14 @@ public:
   */
   bool IsEqual(const T & a, const T &b) ;
 
+  /**
+  *	@brief	set a = b.
+  *	@pre	none.
+  *	@post	set a = b.
+  *	@return	none.
+  */
+  void SetEqual(T & a, const T &b) { a = b;}
+
 };
 
 // protected compare function.
@@ -213,6 +221,14 @@ public:
     *	@return	equal.
     */
     bool IsEqual(const T*  a, const  T* b) { return this->Equal_Impl(a, b); }
+
+    /**
+     *	@brief	set a = b.
+     *	@pre	none.
+     *	@post	set a = b.
+     *	@return	none.
+     */
+    void SetEqual(T* & a, const T* &b) { a->operator=(b); }
 
   };
 

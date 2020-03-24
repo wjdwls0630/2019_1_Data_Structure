@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['emptyfolder',['EmptyFolder',['../class_empty_folder.html',1,'']]],
-  ['emptyqueue',['EmptyQueue',['../class_empty_queue.html',1,'']]],
-  ['emptystack',['EmptyStack',['../class_empty_stack.html',1,'']]]
+  ['dnodetype',['DNodeType',['../class_d_node_type.html',1,'']]],
+  ['dnodetype_3c_20foldertype_20_2a_20_3e',['DNodeType&lt; FolderType * &gt;',['../class_d_node_type.html',1,'']]]
 ];

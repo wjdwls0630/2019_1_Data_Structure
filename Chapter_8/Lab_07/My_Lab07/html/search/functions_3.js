@@ -1,8 +1,11 @@
 var searchData=
 [
-  ['delete',['Delete',['../class_d_s_linked_list.html#a1e33f74107404355a19d0971fb6c5450',1,'DSLinkedList']]],
+  ['delete',['Delete',['../class_binary_search_tree.html#afcb40444559a9017df78eb2f7335fbdc',1,'BinarySearchTree']]],
   ['deleteitem',['DeleteItem',['../class_base_application.html#aa796bf53038391061da76617f2eb55aa',1,'BaseApplication::DeleteItem()'],['../class_folder_type.html#a5c8ba245abee465e396379208124fe34',1,'FolderType::DeleteItem()']]],
+  ['deletenode',['DeleteNode',['../class_binary_search_tree.html#a6f0d93e741316a13e5faae61cea2500d',1,'BinarySearchTree']]],
+  ['deleterecur',['DeleteRecur',['../class_a_v_l_tree.html#a6b9052a77445d93e0573d35b9201f5c9',1,'AVLTree::DeleteRecur()'],['../class_binary_search_tree.html#afbd49cdaa6fae7f3bb3cd788859a11e7',1,'BinarySearchTree::DeleteRecur()']]],
   ['dequeue',['DeQueue',['../class_linked_queue.html#aaabdbed30843433ae4c97343060f9bc9',1,'LinkedQueue']]],
+  ['display',['Display',['../class_binary_tree.html#a71bc8e7e3dfaf0e189a62e5edd0650c7',1,'BinaryTree']]],
   ['displayaccesstimeonscreen',['DisplayAccessTimeOnScreen',['../class_item_type.html#a1c5dd730d0501cc0e232f1f24493f59f',1,'ItemType']]],
   ['displayallitems',['DisplayAllItems',['../class_base_application.html#ac28d5ec00b676d6b79998ac6c0d3ce45',1,'BaseApplication']]],
   ['displayallitemsdetail',['DisplayAllItemsDetail',['../class_base_application.html#a55b0eb56ea6be6dcb4e89737e584c95c',1,'BaseApplication']]],
@@ -19,7 +22,5 @@ var searchData=
   ['displaypathonscreen',['DisplayPathOnScreen',['../class_item_type.html#a65fe1e7258d88b5c212f35eb69604511',1,'ItemType']]],
   ['displayrecentfolder',['DisplayRecentFolder',['../class_base_application.html#aa8b6da17221d1e02badc423e7f7c6ee5',1,'BaseApplication']]],
   ['displaysubitemnumberonscreen',['DisplaySubItemNumberOnScreen',['../class_folder_type.html#ac436ca0f7348cb783a224a465918308e',1,'FolderType']]],
-  ['dnodetype',['DNodeType',['../class_d_node_type.html#ae3c4cc2199cc8eec844054d809c3031e',1,'DNodeType']]],
-  ['doublyiterator',['DoublyIterator',['../class_doubly_iterator.html#aa8a098fc3a2655c71ae84c7b10e79c4b',1,'DoublyIterator::DoublyIterator(DSLinkedList&lt; T &gt; &amp;dsl_list)'],['../class_doubly_iterator.html#a4d243d7770a570a4b7b0380eaae1257a',1,'DoublyIterator::DoublyIterator(DoublyIterator&lt; T &gt; &amp;dsl_iter)']]],
-  ['dslinkedlist',['DSLinkedList',['../class_d_s_linked_list.html#ada9cd0f0f7c4d2e69afe0aee8f77b1d8',1,'DSLinkedList::DSLinkedList()'],['../class_d_s_linked_list.html#a5bce05a73c15a9ede983424b6cf462f1',1,'DSLinkedList::DSLinkedList(const int &amp;Direction)'],['../class_d_s_linked_list.html#a695e483161f47accf6953662638842f8',1,'DSLinkedList::DSLinkedList(const DSLinkedList &amp;dsl)']]]
+  ['dnodetype',['DNodeType',['../class_d_node_type.html#ae3c4cc2199cc8eec844054d809c3031e',1,'DNodeType']]]
 ];

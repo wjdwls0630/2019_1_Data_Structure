@@ -1,0 +1,80 @@
+digraph "DataSturctures_Project2_2015104027"
+{
+  graph [label="DataSturctures_Project_2_2015104027" fontname="Helvetica"]
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+ // LATEX_PDF_SIZE
+
+ subgraph Exception{
+ Node1 [label="std::exception",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="using Path processor find TargetFolder @detail trace the folder path"];
+ Node2 [shape=record label="{Error in Structures|EmptyStack|EmptyQueue|FullQueue|FullStack}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip="Program driver."];
+ Node3 [shape=record label="{Error in System|InvalidOperation|EmptyFolder|ItemNotFound|NameError|NoHistory|NoParent}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip="Program driver."];
+ }
+
+ subgraph Application{
+   BaseApplication [label="BaseApplication"]
+   TextApplication [label="TextApplication"]
+   JPGApplication [label="JPGApplication"]
+   MP3Application [label="MP3Application"]
+ }
+
+ subgraph Item{
+  ItemType [label="ItemType"]
+  FolderType [label="FolderType"]
+  FileType [label="FileType"]
+  TextFileType [label="TextFileType"]
+  JPGFileType [label="JPGFileType"]
+  MP3FileType [label="MP3FileType"]
+ }
+
+ subgraph Structures{
+  Comparer [label="Comparer"]
+  NodeType [label="NodeType"]
+  DNodeType [label="DNodeType"]
+  BNodeType [label="BNodeType"]
+  HNodeType [lavel="HNodeType"]
+  LinkedHistoryStack [label="LinkedHistoryStack"]
+  LinkedQueue [label="LinkedQueue"]
+  BinaryTree [label="BinaryTree"]
+  BinarySearchTree [label="BinarySearchTree"]
+  BinaryIterator [label="BinaryIterator"]
+  AVLTree [label="AVLTree"]
+  CHeap [label="CHeap"]
+ }
+
+ //Connection
+
+ {rank=min;Node1}
+  {rank=same;Node2;Node3;}
+ Node1->{Node2, Node3}
+ Node2->{LinkedHistoryStack,LinkedQueue}
+ {rank=same;BaseApplication;}
+   {rank=same;LinkedHistoryStack;LinkedQueue;CHeap}
+  {rank=same;DNodeType;NodeType;BNodeType;HNodeType;}
+ Node3->BaseApplication
+ ItemType->{FolderType,FileType}
+ DNodeType->LinkedHistoryStack->BaseApplication
+ NodeType->LinkedQueue->BaseApplication
+ {Comparer, HNodeType}->CHeap->BaseApplication
+ BNodeType->BinaryTree->BinarySearchTree->AVLTree
+ Comparer->BinarySearchTree
+ BinaryIterator->BinarySearchTree
+
+
+
+
+  BaseApplication->{FolderType,FileType}
+  AVLTree->FolderType
+  FolderType->FileType
+  FileType ->{TextFileType,JPGFileType,MP3FileType}
+  TextApplication->TextFileType
+  JPGApplication->JPGFileType
+  MP3Application->MP3FileType
+  {rank=max;TextApplication;JPGApplication;MP3Application;}
+
+
+
+
+
+
+}

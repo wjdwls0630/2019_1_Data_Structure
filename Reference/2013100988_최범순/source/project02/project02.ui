@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>project02Class</class>
+ <widget class="QMainWindow" name="project02Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>731</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>project02</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Current Path :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>731</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFolder">
+    <property name="title">
+     <string>Folder</string>
+    </property>
+    <addaction name="actionCreate"/>
+    <addaction name="actionDelete"/>
+    <addaction name="actionRename"/>
+    <addaction name="separator"/>
+    <addaction name="actionCopy"/>
+    <addaction name="actionCut"/>
+    <addaction name="actionPaste"/>
+    <addaction name="separator"/>
+    <addaction name="actionOpen_Folder_at_current_folder"/>
+    <addaction name="actionGo_to_upper_Folder"/>
+    <addaction name="separator"/>
+    <addaction name="actionGo_Back"/>
+    <addaction name="actionShow_Back_History"/>
+    <addaction name="actionGo_Front"/>
+    <addaction name="actionShow_Front_History"/>
+    <addaction name="separator"/>
+    <addaction name="actionClear_History"/>
+    <addaction name="separator"/>
+    <addaction name="actionCurrent_Folder_Property"/>
+   </widget>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionCreate_2"/>
+    <addaction name="actionDelete_2"/>
+    <addaction name="actionRename_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionCopy_2"/>
+    <addaction name="actionCut_2"/>
+    <addaction name="actionPaste_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionOpen_File_At_Current_Folder"/>
+    <addaction name="separator"/>
+    <addaction name="actionShow_File_Property"/>
+   </widget>
+   <widget class="QMenu" name="menuFind">
+    <property name="title">
+     <string>Retrieve</string>
+    </property>
+    <widget class="QMenu" name="menuOf_all_Folder">
+     <property name="title">
+      <string>Of all Folder</string>
+     </property>
+     <addaction name="actionRetrieve_Folder_By_Name_2"/>
+     <addaction name="actionRetrieve_File_By_Name_2"/>
+     <addaction name="actionRetrieve_Folder_And_File_By_Name_2"/>
+    </widget>
+    <widget class="QMenu" name="menuOf_current_Folder">
+     <property name="title">
+      <string>Of current Folder</string>
+     </property>
+     <addaction name="actionRetrieve_Folder_By_Name_3"/>
+     <addaction name="actionRetrieve_File_By_Name_3"/>
+     <addaction name="actionRetrieve_Folder_And_File_By_Name_3"/>
+    </widget>
+    <addaction name="menuOf_all_Folder"/>
+    <addaction name="menuOf_current_Folder"/>
+   </widget>
+   <addaction name="menuFolder"/>
+   <addaction name="menuFile"/>
+   <addaction name="menuFind"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="separator"/>
+   <addaction name="actionGo_Back"/>
+   <addaction name="actionGo_Front"/>
+   <addaction name="actionGo_to_upper_Folder"/>
+   <addaction name="actionCreate"/>
+   <addaction name="actionDelete"/>
+   <addaction name="actionOpen_Folder_at_current_folder"/>
+   <addaction name="actionCreate_2"/>
+   <addaction name="actionDelete_2"/>
+   <addaction name="actionRetrieve_Folder_And_File_By_Name_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionCreate">
+   <property name="icon">
+    <iconset resource="project02.qrc">
+     <normaloff>:/project02/Resources/add.png</normaloff>:/project02/Resources/add.png</iconset>
+   </property>
+   <property name="text">
+    <string>Create</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="icon">
+    <iconset resource="project02.qrc">
+     <normaloff>:/project02/Resources/delete folder.png</normaloff>:/project02/Resources/delete folder.png</iconset>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionCreate_2">
+   <property name="icon">
+    <iconset resource="project02.qrc">
+     <normaloff>:/project02/Resources/add-file.png</normaloff>:/project02/Resources/add-file.png</iconset>
+   </property>
+   <property name="text">
+    <string>Create</string>
+   </property>
+  </action>
+  <action name="actionDelete_2">
+   <property name="icon">
+    <iconset resource="project02.qrc">
+     <normaloff>:/project02/Resources/deleted.png</normaloff>:/project02/Resources/deleted.png</iconset>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionGo_to_upper_Folder">
+   <property name="icon">
+    <iconset resource="project02.qrc">
+     <normaloff>:/project02/Resources/up-arrow.png</normaloff>:/project02/Resources/up-arrow.png</iconset>
+   </property>
+   <property name="text">
+    <string>Go to Upper Folder</string>
+   </property>
+  </action>
+  <action name="actionRename">
+   <property name="text">
+    <string>Rename</string>
+   </property>
+  </action>
+  <action name="actionOpen_Folder_at_current_folder">
+   <property name="icon">
+    <iconset resource="project02.qrc">
+     <normaloff>:/project02/Resources/folder.png</normaloff>:/project02/Resources/folder.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open Folder At Current Folder</string>
+   </property>
+  </action>
+  <action name="actionGo_Back">
+   <property name="icon">
+    <iconset resource="project02.qrc">
+     <normaloff>:/project02/Resources/left-arrow.png</normaloff>:/project02/Resources/left-arrow.png</iconset>
+   </property>
+   <property name="text">
+    <string>Go Back</string>
+   </property>
+  </action>
+  <action name="actionGo_Front">
+   <property name="icon">
+    <iconset resource="project02.qrc">
+     <normaloff>:/project02/Resources/right-arrow.png</normaloff>:/project02/Resources/right-arrow.png</iconset>
+   </property>
+   <property name="text">
+    <string>Go Front</string>
+   </property>
+  </action>
+  <action name="actionShow_Back_History">
+   <property name="icon">
+    <iconset resource="project02.qrc">
+     <normaloff>:/project02/Resources/double-left-chevron.png</normaloff>:/project02/Resources/double-left-chevron.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show Back History</string>
+   </property>
+  </action>
+  <action name="actionShow_Front_History">
+   <property name="icon">
+    <iconset resource="project02.qrc">
+     <normaloff>:/project02/Resources/double-angle-pointing-to-right.png</normaloff>:/project02/Resources/double-angle-pointing-to-right.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show Front History</string>
+   </property>
+  </action>
+  <action name="actionCurrent_Folder_Property">
+   <property name="text">
+    <string>Current Folder Property</string>
+   </property>
+  </action>
+  <action name="actionClear_History">
+   <property name="icon">
+    <iconset resource="project02.qrc">
+     <normaloff>:/project02/Resources/eraser.png</normaloff>:/project02/Resources/eraser.png</iconset>
+   </property>
+   <property name="text">
+    <string>Clear History</string>
+   </property>
+  </action>
+  <action name="actionRead_File_At_Current_Folder">
+   <property name="text">
+    <string>Read File At Current Folder</string>
+   </property>
+  </action>
+  <action name="actionRename_2">
+   <property name="text">
+    <string>Rename</string>
+   </property>
+  </action>
+  <action name="actionShow_File_Property">
+   <property name="text">
+    <string>Show File Property</string>
+   </property>
+  </action>
+  <action name="actionOpen_File_At_Current_Folder">
+   <property name="text">
+    <string>Open File At Current Folder</string>
+   </property>
+  </action>
+  <action name="actionRetrieve_Folder_By_Name">
+   <property name="text">
+    <string>Retrieve Folder By Name</string>
+   </property>
+  </action>
+  <action name="actionRetrieve_File_By_Name">
+   <property name="text">
+    <string>Retrieve File By Name</string>
+   </property>
+  </action>
+  <action name="actionRetrieve_Folder_And_File_By_Name">
+   <property name="text">
+    <string>Retrieve Folder And File By Name</string>
+   </property>
+  </action>
+  <action name="actionRetrieve_Folder_By_Name_2">
+   <property name="text">
+    <string>Retrieve Folder By Name</string>
+   </property>
+  </action>
+  <action name="actionRetrieve_File_By_Name_2">
+   <property name="text">
+    <string>Retrieve File By Name</string>
+   </property>
+  </action>
+  <action name="actionRetrieve_Folder_And_File_By_Name_2">
+   <property name="text">
+    <string>Retrieve Folder And File By Name</string>
+   </property>
+  </action>
+  <action name="actionRetrieve_Folder_And_File_By_Name_3">
+   <property name="icon">
+    <iconset resource="project02.qrc">
+     <normaloff>:/project02/Resources/find.png</normaloff>:/project02/Resources/find.png</iconset>
+   </property>
+   <property name="text">
+    <string>Retrieve Folder And File By Name</string>
+   </property>
+  </action>
+  <action name="actionRetrieve_Folder_By_Name_3">
+   <property name="text">
+    <string>Retrieve Folder By Name</string>
+   </property>
+  </action>
+  <action name="actionRetrieve_File_By_Name_3">
+   <property name="text">
+    <string>Retrieve File By Name</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="text">
+    <string>Cut</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="text">
+    <string>Paste</string>
+   </property>
+  </action>
+  <action name="actionCopy_2">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionCut_2">
+   <property name="text">
+    <string>Cut</string>
+   </property>
+  </action>
+  <action name="actionPaste_2">
+   <property name="text">
+    <string>Paste</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="project02.qrc"/>
+ </resources>
+ <connections/>
+</ui>

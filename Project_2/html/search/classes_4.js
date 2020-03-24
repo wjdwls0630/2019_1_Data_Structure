@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['filetype',['FileType',['../class_file_type.html',1,'']]],
-  ['foldertype',['FolderType',['../class_folder_type.html',1,'']]],
-  ['fullqueue',['FullQueue',['../class_full_queue.html',1,'']]],
-  ['fullstack',['FullStack',['../class_full_stack.html',1,'']]]
+  ['emptyfolder',['EmptyFolder',['../class_empty_folder.html',1,'']]],
+  ['emptyheap',['EmptyHeap',['../class_empty_heap.html',1,'']]],
+  ['emptyqueue',['EmptyQueue',['../class_empty_queue.html',1,'']]],
+  ['emptystack',['EmptyStack',['../class_empty_stack.html',1,'']]]
 ];

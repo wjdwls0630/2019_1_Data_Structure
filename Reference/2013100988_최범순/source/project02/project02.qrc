@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="/project02">
+    <file>Resources/right-arrow.png</file>
+    <file>Resources/left-arrow.png</file>
+    <file>Resources/add-file.png</file>
+    <file>Resources/deleted.png</file>
+    <file>Resources/folder.png</file>
+    <file>Resources/add.png</file>
+    <file>Resources/delete folder.png</file>
+    <file>Resources/double-left-chevron.png</file>
+    <file>Resources/double-angle-pointing-to-right.png</file>
+    <file>Resources/up-arrow.png</file>
+    <file>Resources/eraser.png</file>
+    <file>Resources/find.png</file>
+    <file alias="mainWindow">Resources/folder (1).png</file>
+  </qresource>
+</RCC>

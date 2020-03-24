@@ -1,0 +1,1549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64512576-6410-421f-a46b-bb26d6393d15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/Error/EmptyHeap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/Structures/CHeap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/Structures/HeapNode.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/folder_management/application/app/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/folder_management/static/assets/js/process.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/folder_management/templates/folder_management/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/folder_management/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/AVLTree.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/BNodeType.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/CHeap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/CHeapBase.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/CMaxHeap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/CMinHeap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/HeapNode.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/main.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/Test.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/BUGS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/COPYING.DOC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/COPYING.LIB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/ChangeLog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/INSTALL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/Makefile.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/NEWS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/README.WIN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/THANKS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/acinclude.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/aclocal.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/autogen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/autom4te.cache/output.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/autom4te.cache/output.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/autom4te.cache/output.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/autom4te.cache/output.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/autom4te.cache/requests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/autom4te.cache/traces.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/autom4te.cache/traces.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/autom4te.cache/traces.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/autom4te.cache/traces.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/CgiDefs.h.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/CgiEnvironment.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/CgiEnvironment.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/CgiInput.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/CgiInput.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/CgiUtils.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/CgiUtils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/Cgicc.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/Cgicc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/FormEntry.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/FormEntry.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/FormFile.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/FormFile.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTMLAtomicElement.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTMLAttribute.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTMLAttribute.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTMLAttributeList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTMLAttributeList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTMLBooleanElement.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTMLClasses.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTMLDoctype.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTMLDoctype.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTMLElement.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTMLElement.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTMLElementList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTMLElementList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPContentHeader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPContentHeader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPCookie.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPCookie.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPHTMLHeader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPHTMLHeader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPHeader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPHeader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPPlainHeader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPPlainHeader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPRedirectHeader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPRedirectHeader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPResponseHeader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPResponseHeader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPStatusHeader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPStatusHeader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPXHTMLHeader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/HTTPXHTMLHeader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/MStreamable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/MStreamable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/Makefile.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/XHTMLDoctype.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/XHTMLDoctype.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/XMLDeclaration.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/XMLPI.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/XMLPI.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/cgicc/config.h.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/configure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/configure.ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/contrib/FCgiIO.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/contrib/FCgiIO.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/contrib/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/contrib/Makefile.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/contrib/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/contrib/fcgi-test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/contrib/nph-hello.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/contrib/nph-login.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/Makefile.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/cardgame.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/cookie.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/dns.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C0.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/C9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/CD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/CD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/CR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/CR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/CV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/CV.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H0.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/H9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/HD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/HD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/HR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/HR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/HV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/HV.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P0.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/P9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/PD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/PD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/PR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/PR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/PV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/PV.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T0.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/T9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/TD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/TD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/TR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/TR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/TV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/images/TV.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/styles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/demo/upload.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/distribute-gnu.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/COPYING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/COPYING.DOC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/COPYING.LIB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/Doxyfile.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/Makefile.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/bugs.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/cgi-overview.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/cgicc-doc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/cgicc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/demos.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/gnu-head-sm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/index.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/lib-overview.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/license.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/lists.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doc/tutorial.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doxygen.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/doxygen.conf.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/COPYING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/ChangeLog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/Config.h.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/INSTALL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/Makefile.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/NEWS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/acinclude.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/aclocal.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/autogen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/autom4te.cache/output.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/autom4te.cache/output.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/autom4te.cache/requests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/autom4te.cache/traces.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/autom4te.cache/traces.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/cgicc.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/config.guess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/config.hin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/config.sub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/configure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/configure.ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/depcomp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/example.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/install-sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/ltmain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/example/missing" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/m4/libtool.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/m4/ltoptions.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/m4/ltsugar.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/m4/ltversion.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/m4/lt~obsolete.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/release.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/support/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/support/Makefile.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/support/ac_cxx_have_stl.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/support/ac_cxx_namespaces.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/support/cgicc-config.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/support/config.guess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/support/config.sub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/support/depcomp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/support/install-sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/support/ltmain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/support/missing" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/tempGen.sed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/win/cgicc.dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/win/cgicc.dsw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/win/cookie.dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/win/dns.dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/win/example.dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/win/test.dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test2/cgicc-3.2.9/win/upload.dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test3/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test3/Graphic2DEditor-OOP.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test3/Graphic2DEditorClass-OOP.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/Test3/Graphic2DEditorMain-OOP.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_1/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/app/base_application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/error/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/error/empty_folder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/error/empty_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/error/empty_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/error/invalid_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/error/item_not_found.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/error/name_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/error/no_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/error/no_parent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/item/filetype.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/item/foldertype.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/item/itemtype.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/application/structure/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/base1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/cgi-bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_2_2/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/BaseApplication.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/BaseApplication.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/BaseApplication.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/BaseApplication.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/FolderType.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/FolderType.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/ItemType.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/ItemType.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/Structures/AVLTree.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/Structures/AVLTree.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/Structures/BinarySearchTree.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/Structures/BinarySearchTree.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/Structures/BinaryTree.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/Structures/BinaryTree.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/cmake-build-debug/CMakeFiles/main.dir/BaseApplication.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/cmake-build-debug/CMakeFiles/main.dir/BaseApplication.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/cmake-build-debug/CMakeFiles/main.dir/FolderType.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/cmake-build-debug/CMakeFiles/main.dir/FolderType.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/cmake-build-debug/main" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/cmake-build-debug/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_base_application_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_base_application_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_comparer_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_comparer_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_doubly_node_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_doubly_node_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_empty_folder_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_empty_folder_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_empty_queue_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_empty_queue_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_empty_stack_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_empty_stack_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_file_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_file_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_folder_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_folder_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_full_queue_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_full_queue_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_full_stack_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_full_stack_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_invalid_operation_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_invalid_operation_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_item_not_found_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_item_not_found_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_item_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_item_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_j_p_g_application_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_j_p_g_application_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_j_p_g_file_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_j_p_g_file_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_linked_history_stack_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_linked_history_stack_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_linked_queue_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_linked_queue_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_m_p3_file_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_m_p3_file_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_name_error_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_name_error_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_no_history_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_no_history_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_no_parent_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_no_parent_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_node_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_node_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_text_application_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_text_application_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_text_file_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/_text_file_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/annotated.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/annotated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_base_application-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_base_application-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_base_application.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_base_application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_comparer-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_comparer-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_comparer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_comparer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_comparer_3_01_t_01_5_01_4-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_comparer_3_01_t_01_5_01_4-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_comparer_3_01_t_01_5_01_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_comparer_3_01_t_01_5_01_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_d_node_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_d_node_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_d_node_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_d_node_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_empty_folder-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_empty_folder-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_empty_folder.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_empty_folder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_empty_queue-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_empty_queue-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_empty_queue.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_empty_queue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_empty_stack-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_empty_stack-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_empty_stack.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_empty_stack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_file_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_file_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_file_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_file_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_folder_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_folder_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_folder_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_folder_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_full_queue-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_full_queue-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_full_queue.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_full_queue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_full_stack-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_full_stack-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_full_stack.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_full_stack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_invalid_operation-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_invalid_operation-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_invalid_operation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_invalid_operation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_item_not_found-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_item_not_found-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_item_not_found.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_item_not_found.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_item_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_item_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_item_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_item_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_j_p_g_application-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_j_p_g_application-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_j_p_g_application.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_j_p_g_application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_j_p_g_file_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_j_p_g_file_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_j_p_g_file_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_j_p_g_file_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_linked_history_stack-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_linked_history_stack-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_linked_history_stack.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_linked_history_stack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_linked_queue-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_linked_queue-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_linked_queue.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_linked_queue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_m_p3_file_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_m_p3_file_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_m_p3_file_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_m_p3_file_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_name_error-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_name_error-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_name_error.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_name_error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_no_history-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_no_history-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_no_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_no_history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_no_parent-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_no_parent-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_no_parent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_no_parent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_node_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_node_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_node_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_node_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_text_application-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_text_application-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_text_application.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_text_application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_text_file_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_text_file_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_text_file_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/class_text_file_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/dir_29b6d8349828f3fd4c784faff1564e9a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/dir_29b6d8349828f3fd4c784faff1564e9a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/dir_3d3c8ff3ebf9841b39117ac899f41936.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/dir_3d3c8ff3ebf9841b39117ac899f41936.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/dir_90e361ec3542f3dd076ea3ad19547437.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/dir_90e361ec3542f3dd076ea3ad19547437.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/dir_95e29a8b8ee7c54052c171a88bb95675.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/dir_95e29a8b8ee7c54052c171a88bb95675.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/dir_dbb7256e3909a62d05625b0de8bc416a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/dir_dbb7256e3909a62d05625b0de8bc416a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/dir_f89abcb304c928c7d889aa5625570de5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/dir_f89abcb304c928c7d889aa5625570de5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/files.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/files.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_b.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_e.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_f.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_b.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_e.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_f.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_g.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_g.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_i.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_i.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_j.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_j.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_l.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_l.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_m.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_m.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_n.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_n.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_o.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_o.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_p.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_r.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_r.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_s.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_s.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_t.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_t.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_u.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_u.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_w.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_w.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_~.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_func_~.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_g.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_g.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_i.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_i.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_j.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_j.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_l.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_l.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_m.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_m.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_n.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_n.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_o.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_o.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_p.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_r.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_r.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_rela.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_rela.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_s.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_s.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_t.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_t.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_u.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_u.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_w.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_w.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_~.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/functions_~.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/hierarchy.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/hierarchy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/menudata.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/menudata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_10.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_11.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_12.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_13.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_6.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_7.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_a.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_b.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_c.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_d.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_e.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_f.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/all_f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_6.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_7.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_a.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/classes_a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_10.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_11.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_12.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_13.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_6.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_7.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_a.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_b.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_c.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_d.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_e.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_f.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/functions_f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/pages_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/pages_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/related_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/related_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/searchdata.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/html/search/searchdata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/main.dSYM/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/main.dSYM/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_8/Lab_07/My_Lab07/main.dSYM/Contents/Resources/DWARF/main" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/main.dSYM/Contents/Resources/DWARF/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseApplication.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/BaseApplication.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseApplication.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/BaseApplication.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Error/EmptyFolder.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Error/EmptyFolder.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Error/EmptyQueue.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Error/EmptyQueue.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Error/EmptyStack.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Error/EmptyStack.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Error/FullQueue.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Error/FullQueue.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Error/FullStack.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Error/FullStack.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Error/InvalidOperation.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Error/InvalidOperation.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Error/ItemNotFound.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Error/ItemNotFound.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Error/NameError.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Error/NameError.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Error/NoHistory.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Error/NoHistory.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Error/NoParent.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Error/NoParent.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileType.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/FileType.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileType.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/FileType.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FolderType.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/FolderType.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FolderType.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/FolderType.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ItemType.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/ItemType.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ItemType.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/ItemType.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPG/aaa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/JPG/aaa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPG/bbb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/JPG/bbb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPGApplication.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/JPGApplication.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPGApplication.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/JPGApplication.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPGFileType.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/JPGFileType.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPGFileType.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/JPGFileType.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP3FileType.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/MP3FileType.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP3FileType.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/MP3FileType.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structures/Comparer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Structures/Comparer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structures/DoublyIterator.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Structures/DoublyIterator.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structures/DoublyNodeType.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Structures/DoublyNodeType.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structures/DoublySortedLinkedList.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Structures/DoublySortedLinkedList.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structures/LinkedHistoryStack.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Structures/LinkedHistoryStack.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structures/LinkedQueue.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Structures/LinkedQueue.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Structures/NodeType.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Structures/NodeType.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/AVLTree.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/BinaryNodeType.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/BinaryNodeType.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/BinarySearchTree.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/BinarySearchTree.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/BinaryTree.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/BinaryTree.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Comparer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/Comparer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/main.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/main.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/main.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/main.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Test/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/Test.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/cmake-build-debug/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text/aaa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Text/aaa.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text/abc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Text/abc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text/bbb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/Text/bbb.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextApplication.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/TextApplication.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextApplication.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/TextApplication.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextFileType.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/TextFileType.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextFileType.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/TextFileType.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aa.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/aa.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/10" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/Progress/10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/BaseApplication.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/BaseApplication.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/FileType.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/FileType.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/FolderType.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/FolderType.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/ItemType.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/ItemType.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/JPGApplication.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/JPGApplication.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/JPGFileType.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/JPGFileType.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/MP3FileType.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/MP3FileType.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/TextApplication.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/TextApplication.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/TextFileType.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/TextFileType.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/My_Lab06.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/My_Lab06.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project_2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/Project_2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project_@.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/Project_@.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/debug/libcrypto.1.0.0.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/debug/libcrypto.1.0.0.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/debug/libcrypto.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/debug/libcrypto.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/debug/libmysqlcppconn.7.8.0.16.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/debug/libmysqlcppconn.7.8.0.16.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/debug/libmysqlcppconn.7.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/debug/libmysqlcppconn.7.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/debug/libmysqlcppconn.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/debug/libmysqlcppconn.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/debug/libmysqlcppconn8.2.8.0.16.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/debug/libmysqlcppconn8.2.8.0.16.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/debug/libmysqlcppconn8.2.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/debug/libmysqlcppconn8.2.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/debug/libmysqlcppconn8.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/debug/libmysqlcppconn8.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/debug/libssl.1.0.0.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/debug/libssl.1.0.0.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/debug/libssl.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/debug/libssl.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/debug/main" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/debug/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/libcrypto.1.0.0.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/libcrypto.1.0.0.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/libcrypto.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/libcrypto.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/libmysqlcppconn.7.8.0.16.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/libmysqlcppconn.7.8.0.16.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/libmysqlcppconn.7.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/libmysqlcppconn.7.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/libmysqlcppconn.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/libmysqlcppconn.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/libmysqlcppconn8.2.8.0.16.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/libmysqlcppconn8.2.8.0.16.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/libmysqlcppconn8.2.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/libmysqlcppconn8.2.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/libmysqlcppconn8.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/libmysqlcppconn8.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/libssl.1.0.0.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/libssl.1.0.0.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run/libssl.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/cmake-build-debug/run/libssl.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_base_application_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_base_application_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_comparer_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_comparer_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_doubly_iterator_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_doubly_iterator_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_doubly_node_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_doubly_node_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_doubly_sorted_linked_list_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_doubly_sorted_linked_list_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_empty_folder_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_empty_folder_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_empty_queue_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_empty_queue_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_empty_stack_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_empty_stack_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_file_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_file_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_folder_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_folder_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_full_queue_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_full_queue_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_full_stack_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_full_stack_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_invalid_operation_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_invalid_operation_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_item_not_found_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_item_not_found_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_item_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_item_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_j_p_g_application_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_j_p_g_application_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_j_p_g_file_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_j_p_g_file_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_linked_history_stack_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_linked_history_stack_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_linked_queue_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_linked_queue_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_m_p3_file_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_m_p3_file_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_name_error_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_name_error_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_no_history_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_no_history_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_no_parent_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_no_parent_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_node_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_node_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_text_application_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_text_application_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_text_file_type_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/_text_file_type_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/annotated.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/annotated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bc_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/bc_s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bdwn.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/bdwn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_base_application-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_base_application-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_base_application.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_base_application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_comparer-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_comparer-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_comparer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_comparer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_comparer_3_01_t_01_5_01_4-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_comparer_3_01_t_01_5_01_4-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_comparer_3_01_t_01_5_01_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_comparer_3_01_t_01_5_01_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_d_node_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_d_node_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_d_node_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_d_node_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_d_s_linked_list-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_d_s_linked_list-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_d_s_linked_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_d_s_linked_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_doubly_iterator-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_doubly_iterator-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_doubly_iterator.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_doubly_iterator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_empty_folder-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_empty_folder-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_empty_folder.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_empty_folder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_empty_folder.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_empty_folder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_empty_queue-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_empty_queue-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_empty_queue.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_empty_queue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_empty_queue.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_empty_queue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_empty_stack-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_empty_stack-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_empty_stack.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_empty_stack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_empty_stack.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_empty_stack.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_file_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_file_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_file_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_file_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_file_type.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_file_type.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_folder_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_folder_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_folder_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_folder_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_folder_type.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_folder_type.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_full_queue-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_full_queue-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_full_queue.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_full_queue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_full_queue.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_full_queue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_full_stack-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_full_stack-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_full_stack.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_full_stack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_full_stack.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_full_stack.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_invalid_operation-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_invalid_operation-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_invalid_operation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_invalid_operation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_invalid_operation.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_invalid_operation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_item_not_found-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_item_not_found-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_item_not_found.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_item_not_found.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_item_not_found.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_item_not_found.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_item_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_item_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_item_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_item_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_item_type.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_item_type.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_j_p_g_application-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_j_p_g_application-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_j_p_g_application.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_j_p_g_application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_j_p_g_file_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_j_p_g_file_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_j_p_g_file_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_j_p_g_file_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_j_p_g_file_type.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_j_p_g_file_type.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_linked_history_stack-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_linked_history_stack-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_linked_history_stack.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_linked_history_stack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_linked_queue-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_linked_queue-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_linked_queue.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_linked_queue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_m_p3_file_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_m_p3_file_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_m_p3_file_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_m_p3_file_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_m_p3_file_type.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_m_p3_file_type.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_name_error-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_name_error-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_name_error.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_name_error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_name_error.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_name_error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_no_history-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_no_history-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_no_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_no_history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_no_history.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_no_history.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_no_parent-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_no_parent-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_no_parent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_no_parent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_no_parent.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_no_parent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_node_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_node_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_node_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_node_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_text_application-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_text_application-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_text_application.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_text_application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_text_file_type-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_text_file_type-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_text_file_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_text_file_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_text_file_type.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/class_text_file_type.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/closed.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/closed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_19f2f1b99f19c12fa55b8d312cf373ed.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/dir_19f2f1b99f19c12fa55b8d312cf373ed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_29b6d8349828f3fd4c784faff1564e9a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/dir_29b6d8349828f3fd4c784faff1564e9a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_3d3c8ff3ebf9841b39117ac899f41936.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/dir_3d3c8ff3ebf9841b39117ac899f41936.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_90e361ec3542f3dd076ea3ad19547437.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/dir_90e361ec3542f3dd076ea3ad19547437.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_95e29a8b8ee7c54052c171a88bb95675.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/dir_95e29a8b8ee7c54052c171a88bb95675.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_dbb7256e3909a62d05625b0de8bc416a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/dir_dbb7256e3909a62d05625b0de8bc416a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_f89abcb304c928c7d889aa5625570de5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/dir_f89abcb304c928c7d889aa5625570de5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/doc.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/doc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/doxygen.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/doxygen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/doxygen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/doxygen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dynsections.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/dynsections.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/files.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/files.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/folderclosed.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/folderclosed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/folderopen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/folderopen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_b.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_e.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_f.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_b.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_e.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_f.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_g.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_g.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_i.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_i.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_j.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_j.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_l.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_l.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_m.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_m.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_n.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_n.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_o.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_o.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_p.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_r.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_r.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_s.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_s.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_t.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_t.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_u.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_u.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_w.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_w.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func_~.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_func_~.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_g.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_g.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_i.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_i.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_j.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_j.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_l.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_l.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_m.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_m.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_n.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_n.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_o.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_o.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_p.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_r.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_r.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_rela.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_rela.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_s.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_s.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_t.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_t.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_u.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_u.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_w.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_w.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_~.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/functions_~.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hierarchy.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/hierarchy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/menudata.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/menudata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/nav_f.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/nav_f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/nav_g.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/nav_g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/nav_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/nav_h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/open.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/open.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_10.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_11.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_11.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_12.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_12.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_13.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_13.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_6.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_7.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_a.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_b.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_b.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_c.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_d.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_e.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_e.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_f.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_f.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/all_f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_6.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_7.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_a.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/classes_a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_10.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_11.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_11.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_12.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_12.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_13.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_13.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_6.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_7.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_a.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_b.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_b.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_c.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_d.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_e.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_e.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_f.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_f.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/functions_f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/mag_sel.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/mag_sel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/nomatches.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/nomatches.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/pages_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/pages_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/pages_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/pages_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/related_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/related_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/related_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/related_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/related_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/related_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/related_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/related_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/search_l.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/search_l.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/search_m.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/search_m.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/search_r.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/search_r.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/searchdata.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/search/searchdata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/splitbar.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/splitbar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sync_off.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/sync_off.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sync_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/sync_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/tab_a.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/tab_a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/tab_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/tab_b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/tab_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/tab_h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/tab_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/tab_s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/html/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_2_1/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.dSYM/Contents/Resources/DWARF/main" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="e#84#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/folder_management/templates/folder_management/base.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/folder_management/templates/folder_management/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/folder_management/application/app/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="110" column="26" lean-forward="true" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/folder_management/static/assets/js/process.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/folder_management/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/folder_management/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/folder_management/application/app/base_application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Project</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Project_2/settings.py" />
+        <option value="$PROJECT_DIR$/Project_2/urls.py" />
+        <option value="$PROJECT_DIR$/folder_management/templates/folder_management/index.html" />
+        <option value="$PROJECT_DIR$/folder_management/application/structure/linked_history_stack.py" />
+        <option value="$PROJECT_DIR$/folder_management/application/structure/linked_queue.py" />
+        <option value="$PROJECT_DIR$/folder_management/application/item/filetype.py" />
+        <option value="$PROJECT_DIR$/folder_management/application/item/foldertype.py" />
+        <option value="$PROJECT_DIR$/folder_management/application/item/itemtype.py" />
+        <option value="$PROJECT_DIR$/folder_management/application/structure/avl_tree.py" />
+        <option value="$PROJECT_DIR$/folder_management/application/structure/binary_iterator.py" />
+        <option value="$PROJECT_DIR$/folder_management/application/structure/binary_search_tree.py" />
+        <option value="$PROJECT_DIR$/folder_management/application/structure/binary_tree.py" />
+        <option value="$PROJECT_DIR$/folder_management/application/structure/py_heap.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/folder_management/application/app/base_application.py" />
+        <option value="$PROJECT_DIR$/folder_management/urls.py" />
+        <option value="$PROJECT_DIR$/folder_management/templates/process/process.js" />
+        <option value="$PROJECT_DIR$/folder_management/templates/folder_management/base.html" />
+        <option value="$PROJECT_DIR$/folder_management/static/assets/js/process.js" />
+        <option value="$PROJECT_DIR$/folder_management/templates/folder_management/base.py" />
+        <option value="$PROJECT_DIR$/folder_management/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/Project_2.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2" type="462c0819:PsiDirectoryNode" />
+              <item name="folder_management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2" type="462c0819:PsiDirectoryNode" />
+              <item name="folder_management" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2" type="462c0819:PsiDirectoryNode" />
+              <item name="folder_management" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2" type="462c0819:PsiDirectoryNode" />
+              <item name="folder_management" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2" type="462c0819:PsiDirectoryNode" />
+              <item name="folder_management" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2" type="462c0819:PsiDirectoryNode" />
+              <item name="folder_management" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2" type="462c0819:PsiDirectoryNode" />
+              <item name="folder_management" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2" type="462c0819:PsiDirectoryNode" />
+              <item name="folder_management" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2" type="462c0819:PsiDirectoryNode" />
+              <item name="folder_management" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2" type="462c0819:PsiDirectoryNode" />
+              <item name="folder_management" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2" type="462c0819:PsiDirectoryNode" />
+              <item name="folder_management" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="folder_management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2" type="462c0819:PsiDirectoryNode" />
+              <item name="Project_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/folder_management/application/app" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/folder_management/application/app" />
+      <recent name="$PROJECT_DIR$/folder_management/static/assets/js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Project_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Project_2" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Project_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64512576-6410-421f-a46b-bb26d6393d15" name="Default Changelist" comment="" />
+      <created>1559929933196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559929933196</updated>
+      <workItem from="1559929935546" duration="7280000" />
+      <workItem from="1559967278252" duration="164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7444000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2536349" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="4" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project_2$manage.coverage" NAME="manage Coverage Results" MODIFIED="1559931354230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Project_2/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project_2/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/error/empty_folder.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/item/filetype.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/item/foldertype.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/item/itemtype.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/structure/avl_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/structure/binary_iterator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/structure/binary_search_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/structure/binary_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/structure/bnodetype.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/structure/comparer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/structure/dnodetype.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/structure/linked_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/structure/nodetype.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/structure/py_heap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/structure/linked_history_stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/structure/hnodetype.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/urls/resolvers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="667" selection-start-line="667" selection-end-line="667" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/templates/process/process.js" />
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#84#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/templates/folder_management/base.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/templates/folder_management/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/static/assets/js/process.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/app/base_application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_management/application/app/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="110" column="26" lean-forward="true" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

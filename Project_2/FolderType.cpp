@@ -7,27 +7,8 @@ FolderType& FolderType::operator= (const FolderType& fd){
 			this->MakeEmptyFolder();
 		}
 		if (fd.fdSubItemNum!=0) {
-			this->fdSubItemList=new DSLinkedList<ItemType*>;
-			DoublyIterator<ItemType*>iter(*fd.fdSubItemList);
-			ItemType* Copy_Folder = nullptr; //for copy folder
-            while (!iter.NextIsTail()) {
-                if (iter.Next()->WhatIs()=="Folder") {
-                    //folder part
-                    if (iter.Cur()->GetSubItemNum()!=0) {
-                        Copy_Folder = new FolderType;
-                        *dynamic_cast<FolderType*>(Copy_Folder) = *dynamic_cast<FolderType*>(iter.Cur()); // call recursive operator =
-                        Copy_Folder->SetPath(fd.GetPath()+"/"+Copy_Folder->GetName());
-                        this->fdSubItemList->Add(Copy_Folder);
-                    } else {
-                        iter.Cur()->SetPath(fd.GetPath()+"/"+iter.Cur()->GetName());
-                        this->fdSubItemList->Add(iter.Cur());
-                    }
-                } else{
-                    // file part
-                    iter.Cur()->SetPath(fd.GetPath()+"/"+iter.Cur()->GetName());
-                    this->fdSubItemList->Add(iter.Cur());
-                }
-            }
+            this->fdSubItemList = new AVLTree<ItemType*>;
+            this->fdSubItemList->CopyNodeRecur(fd.fdSubItemList->GetRoot());
 		}
 
 		// other property
@@ -43,12 +24,9 @@ FolderType& FolderType::operator+=(const FolderType &fd){
 
 	if (fd.fdSubItemNum!=0) { // if fd has subitems
 		if (this->fdSubItemNum==0) { // and if this has no sub item
-			this->fdSubItemList=new DSLinkedList<ItemType*>;
+			this->fdSubItemList=new AVLTree<ItemType*>;
 		}
-		DoublyIterator<ItemType*> iter(*fd.fdSubItemList);
-		while (!iter.NextIsTail()) {
-			this->fdSubItemList->Add(iter.Next());
-		}
+		this->fdSubItemList->CopyNodeRecur(fd.fdSubItemList->GetRoot());
 	}
 	//other property
 	this->fdSubItemNum+=fd.fdSubItemNum;
@@ -60,10 +38,10 @@ FolderType& FolderType::operator+=(const FolderType &fd){
 // Create New Folder in Current Folder.
 int FolderType::NewItem(ItemType* Temp_Item){
 	if (this->fdSubItemNum==0) {
-		this->fdSubItemList=new DSLinkedList<ItemType*>; //If there is no SubItem, then create the FolderList
+		this->fdSubItemList=new AVLTree<ItemType*>; //If there is no SubItem, then create the FolderList
 	}
 	std::string Temp_Name;
-	int OverLapCount=0; // 수정 부분
+	int OverLapCount=0; // for modifying
 	while (this->fdSubItemList->Get(Temp_Item)) {// if item is overlap
 		if (Temp_Item->WhatIs()=="Folder") { //folder part
 			if (OverLapCount==0) {
@@ -126,35 +104,6 @@ int FolderType::DeleteItem(ItemType* Temp_Item){
 	return 1;
 }
 
-int FolderType::UpdateItemName(ItemType*& Target_Item, std::string Value){
-    //set name
-    Target_Item->SetName(Value);
-    if (Target_Item->WhatIs()=="Folder") {
-        //if folder change all path of childs
-        this->UpdateAllChildsPath(dynamic_cast<FolderType*>(Target_Item));
-        return 1;
-    }
-    //if file change only itself
-    Target_Item->SetPath(this->GetPath()+"/"+Value);
-    return 1;
-}
-int FolderType::UpdateAllChildsPath(FolderType* Temp_Folder){
-    if (Temp_Folder->GetSubItemNum()==0) {
-        Temp_Folder->SetPath(this->GetPath()+"/"+Temp_Folder->GetName());
-        return 1;
-    }
-    DoublyIterator<ItemType*> iter(*Temp_Folder->fdSubItemList);
-    Temp_Folder->SetPath(this->GetPath()+"/"+Temp_Folder->GetName());
-    while (!iter.NextIsTail()) {
-        if (iter.Next()->WhatIs()=="Folder") {
-            Temp_Folder->UpdateAllChildsPath(dynamic_cast<FolderType*>(iter.Cur()));
-        } else{
-            iter.Cur()->SetPath(this->GetPath()+"/"+Temp_Folder->GetName());
-        }
-    }
-    return 1;
-}
-
 // 	Retrieve one Folder you search in Current Folder.
 int FolderType::RetrieveItemByName(ItemType* &Target_Item){
 
@@ -189,7 +138,9 @@ FolderType FolderType::RetrieveItemsByName(std::string KeyWord){
 	if (this->fdSubItemNum==0) {
 		throw EmptyFolder();
 	}
-    DoublyIterator<ItemType*> iter(*this->fdSubItemList);
+
+
+    BinaryIterator<ItemType*> iter(*this->fdSubItemList);
     while (!iter.NextIsTail()) {
         //check item has keyword first
         if (iter.Next()->GetName().find(KeyWord)!=std::string::npos) {
@@ -220,8 +171,8 @@ void FolderType::SortSubItems(std::string Value){
 	if (this->fdSubItemNum==0) {
 		return ; //do nothing
 	}
-	DoublyIterator<ItemType*> iter(*this->fdSubItemList);
-	while (!iter.NextIsTail()) {//문제 다꺼내서 다 키값을 맞춰야함
+	BinaryIterator<ItemType*> iter(*this->fdSubItemList);
+	while (!iter.NextIsTail()) { // caution : set all items key
 		iter.Next()->SetKeyValue(Value);
 	}
 	this->fdSubItemList->Sort();
@@ -235,8 +186,8 @@ void FolderType::SortSubItems(int inKey){
 	if (this->fdSubItemNum==0) {
 		return ; //do nothing
 	}
-	DoublyIterator<ItemType*> iter(*this->fdSubItemList);
-	while (!iter.NextIsTail()) {//문제 다꺼내서 다 키값을 맞춰야함
+	BinaryIterator<ItemType*> iter(*this->fdSubItemList);
+	while (!iter.NextIsTail()) {// caution : set all items key
 		iter.Next()->SetKeyValue(inKey);
 	}
 	this->fdSubItemList->Sort();
@@ -251,7 +202,7 @@ void FolderType::DisplayAllSubItems(){
 		throw EmptyFolder();
 	}
 	std::cout << "============ SubItem list ============" << '\n';
-	DoublyIterator<ItemType*> iter(*this->fdSubItemList);
+	BinaryIterator<ItemType*> iter(*this->fdSubItemList);
 	while (!iter.NextIsTail()) {
 		std::cout << *iter.Next() << '\n';
 	}
@@ -264,7 +215,7 @@ void FolderType::DisplayAllSubItemsDetail(){
 		throw EmptyFolder();
 	}
 	std::cout << "============ SubItem list ============" << '\n';
-	DoublyIterator<ItemType*> iter(*this->fdSubItemList);
+	BinaryIterator<ItemType*> iter(*this->fdSubItemList);
 	while (!iter.NextIsTail()) {
 		if (iter.Next()->WhatIs()=="Folder") { // if Folder
             std::cout << *iter.Cur() <<"   "<<iter.Cur()->GetPath()<<"   "<<iter.Cur()->GetSubItemNum()<<"   "
@@ -286,8 +237,8 @@ void FolderType::ResetFolderKey(){
 		return; //do nothing;
 	}
 
-	DoublyIterator<ItemType*> iter(*this->fdSubItemList);
-	while (!iter.NextIsTail()) { //문제 다꺼내서 다 키값을 맞춰야함
+	BinaryIterator<ItemType*> iter(*this->fdSubItemList);
+	while (!iter.NextIsTail()) { //set all items key
 		iter.Next()->SetKeyValue(0);
 	}
 	return ;

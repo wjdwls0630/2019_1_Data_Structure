@@ -1,12 +1,8 @@
 var searchData=
 [
-  ['nameerror',['NameError',['../class_name_error.html',1,'']]],
-  ['newitem',['NewItem',['../class_base_application.html#ab4822da88f1aae5e7d57aaf6ad962a78',1,'BaseApplication::NewItem()'],['../class_folder_type.html#af7e15bacd2e91d56effd02a4765f7f34',1,'FolderType::NewItem()']]],
-  ['next',['Next',['../class_doubly_iterator.html#abc5eac06c6557c9e664c12b14e386bc6',1,'DoublyIterator::Next()'],['../class_linked_history_stack.html#a92f9628c1efb98f2f895204596d28a9a',1,'LinkedHistoryStack::Next()']]],
-  ['nextistail',['NextIsTail',['../class_doubly_iterator.html#abebe8600699d31b342c2c773782afc8b',1,'DoublyIterator']]],
-  ['nextptr',['NextPtr',['../class_doubly_iterator.html#af60d565590094bef89fa0fca2c075fe6',1,'DoublyIterator']]],
-  ['nodetype',['NodeType',['../class_node_type.html',1,'NodeType&lt; T &gt;'],['../class_node_type.html#a6625a7c80ecf6b7c60ea9684480c0d4a',1,'NodeType::NodeType()']]],
-  ['nodetype_3c_20itemtype_20_2a_20_3e',['NodeType&lt; ItemType * &gt;',['../class_node_type.html',1,'']]],
-  ['nohistory',['NoHistory',['../class_no_history.html',1,'']]],
-  ['noparent',['NoParent',['../class_no_parent.html',1,'']]]
+  ['makeempty',['MakeEmpty',['../class_binary_tree.html#a6f0f863dc5bcb315a04095682a45e2c2',1,'BinaryTree::MakeEmpty()'],['../class_linked_history_stack.html#a8f7d33e10a2d71cc971e5a943571028d',1,'LinkedHistoryStack::MakeEmpty()'],['../class_linked_queue.html#abf762fefab4f156c4c7178b85aa82131',1,'LinkedQueue::MakeEmpty()']]],
+  ['makeemptynode',['MakeEmptyNode',['../class_binary_tree.html#a79624d64fa3cf94a50daac2e1781e0e3',1,'BinaryTree']]],
+  ['makehourminutetoword',['MakeHourMinuteToWord',['../class_item_type.html#a8bb2fb38a8263d044aeae28c411492ce',1,'ItemType']]],
+  ['makemonthtoword',['MakeMonthToWord',['../class_item_type.html#a78b1b6a0b65a5c9e5e744ac70c0d57a1',1,'ItemType']]],
+  ['mp3filetype',['MP3FileType',['../class_m_p3_file_type.html',1,'MP3FileType'],['../class_m_p3_file_type.html#a07d201a8cb8a1a2b89b74eed79329d98',1,'MP3FileType::MP3FileType(std::string inName=&quot;untitled&quot;)'],['../class_m_p3_file_type.html#ae64a5d0721fa8c8ef2ee95344bc61d63',1,'MP3FileType::MP3FileType(const MP3FileType &amp;mfi)']]]
 ];

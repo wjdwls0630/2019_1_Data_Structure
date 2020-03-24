@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['linkedhistorystack',['LinkedHistoryStack',['../class_linked_history_stack.html',1,'']]],
-  ['linkedhistorystack_3c_20foldertype_20_2a_20_3e',['LinkedHistoryStack&lt; FolderType * &gt;',['../class_linked_history_stack.html',1,'']]],
-  ['linkedqueue',['LinkedQueue',['../class_linked_queue.html',1,'']]],
-  ['linkedqueue_3c_20itemtype_20_2a_20_3e',['LinkedQueue&lt; ItemType * &gt;',['../class_linked_queue.html',1,'']]]
+  ['invalidoperation',['InvalidOperation',['../class_invalid_operation.html',1,'']]],
+  ['itemnotfound',['ItemNotFound',['../class_item_not_found.html',1,'']]],
+  ['itemtype',['ItemType',['../class_item_type.html',1,'']]]
 ];

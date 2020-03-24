@@ -18,69 +18,69 @@ enum KeyValue { NAME, CREATEDTIME, MODIFIEDTIME, ACCESSTIME};
 */
 class ItemType{
 protected:
-  std::string itName; // item name
-  std::string itPath; // path from root
-  std::string itCreatedTime; // time that item created(const)
-  std::string itModifiedTime; // time that item is modified
-  std::string itAccessTime; // time that item is accessed (folder enter, file run)
-  int itKey; // Sort by key value (default : name)
-  //(Name : 0 , CreatedTime : 1 , ModifiedTime : 2, AccessTime : 3)
-  //±âÅ¸ ÇÊ¿äÇÑ ¾ÆÀÌÅÛ Á¤º¸ Á¤ÀÇ ;
+    std::string itName; // item name
+    std::string itPath; // path from root
+    std::string itCreatedTime; // time that item created(const)
+    std::string itModifiedTime; // time that item is modified
+    std::string itAccessTime; // time that item is accessed (folder enter, file run)
+    int itKey; // Sort by key value (default : name)
+    //(Name : 0 , CreatedTime : 1 , ModifiedTime : 2, AccessTime : 3)
+    //ï¿½ï¿½Å¸ ï¿½Ê¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ;
 public:
-	/**
-	*	default constructor.
-	*/
-	ItemType(std::string inName="untitled")
-	: itName(inName),itKey(NAME){
-		this->GenerateTime(this->itCreatedTime);
-		this->itModifiedTime=this->itCreatedTime;
-    this->itAccessTime=this->itCreatedTime;
-	}
-	/**
+    /**
+    *	default constructor.
+    */
+    ItemType(std::string inName="untitled")
+            : itName(inName),itKey(NAME){
+        this->GenerateTime(this->itCreatedTime);
+        this->itModifiedTime=this->itCreatedTime;
+        this->itAccessTime=this->itCreatedTime;
+    }
+    /**
     *	copy constructor.(by deep copy)
     */
-	ItemType(const ItemType& it)
-	: itName(it.itName),itPath(it.itPath),itCreatedTime(it.itCreatedTime),itModifiedTime(it.itModifiedTime),itAccessTime(it.itAccessTime),itKey(it.itKey){}
+    ItemType(const ItemType& it)
+            : itName(it.itName),itPath(it.itPath),itCreatedTime(it.itCreatedTime),itModifiedTime(it.itModifiedTime),itAccessTime(it.itAccessTime),itKey(it.itKey){}
 
 
-	/**
-	*	destructor.
-	*/
-	virtual ~ItemType()	{}
+    /**
+    *	destructor.
+    */
+    virtual ~ItemType()	{}
 
     //Get Set Display method
 
-	/**
-	*	@brief	Get Item path.
-	*	@pre	Item path is set.
-	*	@post	none.
-	*	@return	Item path.
-	*/
-	std::string GetPath() const { return this->itPath; }
+    /**
+    *	@brief	Get Item path.
+    *	@pre	Item path is set.
+    *	@post	none.
+    *	@return	Item path.
+    */
+    std::string GetPath() const { return this->itPath; }
 
-	/**
-	*	@brief	Get Item name.
-	*	@pre	Item name is set.
-	*	@post	none.
-	*	@return	Item name.
-	*/
-	std::string GetName() const{ return this->itName; }
+    /**
+    *	@brief	Get Item name.
+    *	@pre	Item name is set.
+    *	@post	none.
+    *	@return	Item name.
+    */
+    std::string GetName() const{ return this->itName; }
 
-	/**
-	*	@brief	Get Created Time.
-	*	@pre	Created Time is set.
-	*	@post	none.
-	*	@return	Created Time.
-	*/
-	std::string GetCreatedTime() const { return this->itCreatedTime; }
+    /**
+    *	@brief	Get Created Time.
+    *	@pre	Created Time is set.
+    *	@post	none.
+    *	@return	Created Time.
+    */
+    std::string GetCreatedTime() const { return this->itCreatedTime; }
 
-	/**
-	*	@brief	Get Modified Time.
-	*	@pre	Modified Time is set.
-	*	@post	none.
-	*	@return	Modified Time.
-	*/
-	std::string GetModifiedTime() const { return this->itModifiedTime; }
+    /**
+    *	@brief	Get Modified Time.
+    *	@pre	Modified Time is set.
+    *	@post	none.
+    *	@return	Modified Time.
+    */
+    std::string GetModifiedTime() const { return this->itModifiedTime; }
 
     /**
 	*	@brief	Get Access Time.
@@ -88,16 +88,16 @@ public:
 	*	@post	none.
 	*	@return	Access Time.
 	*/
-	std::string GetAccessTime() const { return this->itAccessTime; }
+    std::string GetAccessTime() const { return this->itAccessTime; }
 
-	int GetKey() const { return this->itKey; }
-	/**
-	*	@brief	Get SubFolder Number.
+    int GetKey() const { return this->itKey; }
+    /**
+    *	@brief	Get SubFolder Number.
     *	@pre	SubFolder Number is set.
     *	@post	none.
     *	@return	SubFolder Number.
     */
-	virtual int GetSubItemNum() const { return 0; };
+    virtual int GetSubItemNum() const { return 0; };
 
     /**
     *	@brief	Get ItemType kind.
@@ -107,39 +107,39 @@ public:
     */
     virtual std::string WhatIs() const { return "Item"; } ;
 
-	/**
-	*	@brief	Set Item path.
-	*	@pre	none.
-	*	@post	Item path, file Name(store and out) is set.
-	*	@param	inPath	Item path.
-	*/
-	void SetPath(std::string inPath) { this->itPath=inPath; };
+    /**
+    *	@brief	Set Item path.
+    *	@pre	none.
+    *	@post	Item path, file Name(store and out) is set.
+    *	@param	inPath	Item path.
+    */
+    void SetPath(std::string inPath) { this->itPath=inPath; };
 
-	/**
-	*	@brief	Set Item Name.
-	*	@pre	none.
-	*	@post	Item Name is set.
-	*	@param	inName	Item Name.
-	*/
-	virtual void SetName(std::string inName) { this->itName=inName; };
+    /**
+    *	@brief	Set Item Name.
+    *	@pre	none.
+    *	@post	Item Name is set.
+    *	@param	inName	Item Name.
+    */
+    virtual void SetName(std::string inName) { this->itName=inName; };
 
-	/**
-	*	@brief	Set Created Time.
-	* @detail Do not use this except reading data!
-	*	@pre	none.
-	*	@post	Created Time is set.
-	*	@param	inCreatedTime	Created Time.
-	*/
-	void SetCreatedTime(std::string inCreatedTime) { this->itCreatedTime=inCreatedTime; };
+    /**
+    *	@brief	Set Created Time.
+    * @detail Do not use this except reading data!
+    *	@pre	none.
+    *	@post	Created Time is set.
+    *	@param	inCreatedTime	Created Time.
+    */
+    void SetCreatedTime(std::string inCreatedTime) { this->itCreatedTime=inCreatedTime; };
 
-	/**
-	*	@brief	Set Modified Time.
-	* @detail Do not use this except reading data!
-	*	@pre	none.
-	*	@post	Modified Time is set.
-	*	@param	inModifiedTime	Modified Time.
-	*/
-	void SetModifiedTime(std::string inModifiedTime) { this->itModifiedTime=inModifiedTime; };
+    /**
+    *	@brief	Set Modified Time.
+    * @detail Do not use this except reading data!
+    *	@pre	none.
+    *	@post	Modified Time is set.
+    *	@param	inModifiedTime	Modified Time.
+    */
+    void SetModifiedTime(std::string inModifiedTime) { this->itModifiedTime=inModifiedTime; };
 
     /**
     *	@brief	Set Access Time.
@@ -186,32 +186,32 @@ public:
         }
     }
 
-	/**
-	*	@brief	Set Item All Info. (For Redefinition)
-	* @detail Do not use this except reading data!
-	*	@pre	none.
-	*	@post	Item All Info is set.
-	*	@param	inName	Item Name.
-	*	@param	inPath	Item Path.
-	*	@param	inCreatedTime	 CreatedTime.
-	*	@param	inModifiedTime	Item ModifiedTime.
-	*	@param	inAccessTime	Item AccessTime.
-	*/
-	void SetAllInfo(std::string inName, std::string inPath,std::string inCreatedTime, std::string inModifiedTime, std::string inAccessTime){
-		this->SetName(inName);
-		this->SetPath(inPath);
-		this->SetCreatedTime(inCreatedTime);
-		this->SetModifiedTime(inModifiedTime);
+    /**
+    *	@brief	Set Item All Info. (For Redefinition)
+    * @detail Do not use this except reading data!
+    *	@pre	none.
+    *	@post	Item All Info is set.
+    *	@param	inName	Item Name.
+    *	@param	inPath	Item Path.
+    *	@param	inCreatedTime	 CreatedTime.
+    *	@param	inModifiedTime	Item ModifiedTime.
+    *	@param	inAccessTime	Item AccessTime.
+    */
+    void SetAllInfo(std::string inName, std::string inPath,std::string inCreatedTime, std::string inModifiedTime, std::string inAccessTime){
+        this->SetName(inName);
+        this->SetPath(inPath);
+        this->SetCreatedTime(inCreatedTime);
+        this->SetModifiedTime(inModifiedTime);
         this->SetAccessTime(inAccessTime);
-	};
+    };
 
-	/**
+    /**
     *	@brief	Display Item Name on screen.
     *	@pre	Item Name is set.
     *	@post	Item Name is on screen.
     */
     void DisplayNameOnScreen(){
-  	    std::cout <<"Name : " << this->itName<<'\n';
+        std::cout <<"Name : " << this->itName<<'\n';
     };
 
     /**
@@ -229,7 +229,7 @@ public:
     *	@post	Item Path is on screen.
     */
     void DisplayPathOnScreen(){
-  	    std::cout <<"Where : " << this->itPath<<'\n' ;
+        std::cout <<"Where : " << this->itPath<<'\n' ;
     };
 
     /**
@@ -239,7 +239,7 @@ public:
     */
     void DisplayCreatedTimeOnScreen(){
         std::cout <<"Created : " << this->itCreatedTime.substr(0,4)<<" "<<this->MakeMonthToWord(this->itCreatedTime.substr(4,2))
-        <<" "<<this->itCreatedTime.substr(6,2)<<" "<<this->MakeHourMinuteToWord(this->itCreatedTime.substr(8,4))<<'\n';
+                  <<" "<<this->itCreatedTime.substr(6,2)<<" "<<this->MakeHourMinuteToWord(this->itCreatedTime.substr(8,4))<<'\n';
     };
 
     /**
@@ -249,7 +249,7 @@ public:
     */
     void DisplayModifiedTimeOnScreen(){
         std::cout <<"Modified : " << this->itModifiedTime.substr(0,4)<<" "<<this->MakeMonthToWord(this->itModifiedTime.substr(4,2))
-        <<" "<<this->itModifiedTime.substr(6,2)<<" "<<this->MakeHourMinuteToWord(this->itModifiedTime.substr(8, 4))<<'\n';
+                  <<" "<<this->itModifiedTime.substr(6,2)<<" "<<this->MakeHourMinuteToWord(this->itModifiedTime.substr(8, 4))<<'\n';
     };
 
     /**
@@ -259,7 +259,7 @@ public:
     */
     void DisplayAccessTimeOnScreen(){
         std::cout <<"Last Opened : " << this->itAccessTime.substr(0,4)<<" "<<this->MakeMonthToWord(this->itAccessTime.substr(4,2))
-        <<" "<<this->itAccessTime.substr(6,2)<<" "<<this->MakeHourMinuteToWord(this->itAccessTime.substr(8, 4))<<'\n';
+                  <<" "<<this->itAccessTime.substr(6,2)<<" "<<this->MakeHourMinuteToWord(this->itAccessTime.substr(8, 4))<<'\n';
     };
 
 
@@ -283,28 +283,28 @@ public:
 
 
 
-	/**
-	*	@brief	Set Item Name from keyboard.
-	*	@pre	none.
-	*	@post	Item Name is set.
-	*/
-	void SetNameFromKB();
+    /**
+    *	@brief	Set Item Name from keyboard.
+    *	@pre	none.
+    *	@post	Item Name is set.
+    */
+    void SetNameFromKB();
 
-	/**
-	*	@brief	Set Item Path from keyboard.
-	*	@pre	none.
-	*	@post	Item Path is set.
-	*/
-	void SetPathFromKB();
+    /**
+    *	@brief	Set Item Path from keyboard.
+    *	@pre	none.
+    *	@post	Item Path is set.
+    */
+    void SetPathFromKB();
 
-	/**
-	*	@brief	generate string type time using the current time.
-	*	@pre	none.
-	*	@post	none.
-	*	@param	string type data that you want to set curret time.
-	*	@return	return 1
-	*/
-	int GenerateTime(std::string &data);
+    /**
+    *	@brief	generate string type time using the current time.
+    *	@pre	none.
+    *	@post	none.
+    *	@param	string type data that you want to set curret time.
+    *	@return	return 1
+    */
+    int GenerateTime(std::string &data);
 
 
     /**

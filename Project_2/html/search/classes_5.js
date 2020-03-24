@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['invalidoperation',['InvalidOperation',['../class_invalid_operation.html',1,'']]],
-  ['itemnotfound',['ItemNotFound',['../class_item_not_found.html',1,'']]],
-  ['itemtype',['ItemType',['../class_item_type.html',1,'']]]
+  ['filetype',['FileType',['../class_file_type.html',1,'']]],
+  ['foldertype',['FolderType',['../class_folder_type.html',1,'']]],
+  ['fullqueue',['FullQueue',['../class_full_queue.html',1,'']]],
+  ['fullstack',['FullStack',['../class_full_stack.html',1,'']]]
 ];
